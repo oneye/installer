@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Root adgangskode</installer-system-password>
+	<installer-system-no>Nej</installer-system-no>
+	<installer-system-removeinstaller-no>[span]Nej[/span] vil sende dig tilbage til systemsiden.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Er du sikker på du ønsker at fjerne oneye installatøren?</installer-system-removeinstaller-really>
+	<installer-system-title>Vær venlig at vælge en af følgende handlinger:</installer-system-title>
+	<installer-system-message-translations>Oversættelser kan blive downloadet fra [a link].</installer-system-message-translations>
+	<installer-system-message-remove>Vær venlig at fjerne installatøren pga. sikkerhedsmæssige årsager!</installer-system-message-remove>
+	<installer-system-action-uninstall>Afinstallér oneye</installer-system-action-uninstall>
+	<installer-system-back>Tilbage til menu</installer-system-back>
+	<installer-system-continue>Fortsæt...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Ja[/span] vil fjerne alle oneye installationsfiler!</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>Opdateringsfilerne kunne ikke blive pakket ud. For at opdatere oneye manuelt skal du omdøbe "[package]" til "package.tar.gz" og udpakke indholdet til den samme mappe.</installer-update-error-extract>
+	<installer-system-uninstall-really>Er du sikker på du ønsker at fjerne oneye installatøren?</installer-system-uninstall-really>
+	<installer-update-error-under15>Dette opdateringsscript er kun for eyeos version 1.5 og over. Du bruger eyeos [version1]. Vær venlig at opdatere til eyeos 1.5 før du opdaterer til oneye [version2].</installer-update-error-under15>
+	<installer-update-title>Vær venlig at fortsætte med at opdatere din oneye installation til version [version].</installer-update-title>
+	<installer-update-do>Opdatér oneye!</installer-update-do>
+	<installer-system-password-error>Forkert root adgangskode!</installer-system-password-error>
+	<installer-update-error-renaming>Kunne ikke omdøbe mappen "./eyeOS/". Vær venlig at omdøbe den manuelt til "[hash]" og overskriv alle eksisterende filer.</installer-update-error-renaming>
+	<installer-update-continue>Fortsæt...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Ja[/span] vil fjerne oneye fuldstændig!</installer-system-uninstall-yes>
+	<installer-system-yes>Ja</installer-system-yes>
+	<installer-system-action-resetsystem>Nulstil systemfiler</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]Nej[/span] vil sende dig tilbage til systemsiden.</installer-system-uninstall-no>
+	<installer-system-action>Handling</installer-system-action>
+	<installer-system-action-removeinstaller>Fjern oneye installatøren</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Root adgangskoden er påkrævet!</installer-install-passwords-required>
+	<installer-install-passwords-characters>Root adgangskoden skal være mere end tre karakterer lang!</installer-install-passwords-characters>
+	<installer-install-title>Vær venlig at udfylde følgende form for at installere oneye:</installer-install-title>
+	<installer-lib-check-gzip>Din server ser ikke ud til at have gzip support. For at installere oneye manuelt skal du omdøbe "[package]" til "package.tar.gz" og udpakke indholdet til den samme mappe.</installer-lib-check-gzip>
+	<installer-lib-check-newer>Den nuværende oneye installation er nyere end denne opdatering. Vær venlig at slette mappen "[installer]" af sikkerhedsmæssige årsager.</installer-lib-check-newer>
+	<installer-install-password-root>Root adgangskode</installer-install-password-root>
+	<installer-install-password-retype>Indtast adgangskoden igen</installer-install-password-retype>
+	<installer-install-continue>Fortsæt...</installer-install-continue>
+	<installer-install-error-extract>Installationsfilerne kunne ikke udpakkes. For at installere oneye manuelt skal du omdøbe "[pakckage]" til "package.tar.gz" og udpakke indholdet til den samme mappe.</installer-install-error-extract>
+	<installer-install-error-renaming>Kunne ikke omdøbe mappen "./eyeOS/". Vær venlig at omdøbe den til "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>Advarsel: Vær venlig at tjekke "[package]" siden den ser ud til at være ødelagt.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Nuværende sprog</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Advarsel: Vær venlig at give alle rettigheder (CHMOD 777) til "[file]".</installer-lib-check-permissions>
+	<installer-lib-output-title>oneye installation</installer-lib-output-title>
+	<installer-lib-output-utf8>Din PHP version har ikke fuld UTF-8 support. Vær venlig at opgradere PHP eller installer mbstring modulet. Uden det vil du godt kunne installere og opgradere dit oneye, men du vil opleve problemer i nogle sektioner af systemet der kræver international support.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>af</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Root adgangskoderne er ikke ens!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Sprog</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Der var et problem under installationen:</installer-lib-output-errors>
+	<installer-lib-check-php>Din server bruger i øjeblikket en ikke understøttet version af PHP. Vær venlig at opgradere til PHP 5.0 eller højere før du installerer oneye.</installer-lib-check-php>
+	<installer-lib-check-safemode>Undskyld, men oneye skal have SAFE_MODE sat til fra. Din nuværende konfiguration har SAFE_MODE aktiveret. Vær venlig at ændre din php.ini fil for at slå SAFE_MODE fra, eller spørg din system administrator hvis du skal bruge mere hjælp.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Tillad brugere at lave konti</installer-install-allow-creation>
+	<installer-lib-check-notexist>Fejl: "[file] eksisterer ikke.</installer-lib-check-notexist>
+	<installer-install-do>Installér oneye!</installer-install-do>
+</translation>

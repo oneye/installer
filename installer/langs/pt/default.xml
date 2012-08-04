@@ -1,0 +1,55 @@
+<translation>
+	<installer-system-password>Password root</installer-system-password>
+	<installer-system-message-translations>As traduções não podem ser descarregadas de [a link].</installer-system-message-translations>
+	<installer-system-removeinstaller-no>[span]Não[/span] o traz de volta à página do sistema.</installer-system-removeinstaller-no>
+	<installer-system-message-remove>Remova o instalador por razões de segurança!</installer-system-message-remove>
+	<installer-system-removeinstaller-yes>[span]Sim[/span] remover todos os ficheiros do instalador!</installer-system-removeinstaller-yes>
+	<installer-system-password-error>Password root incorrecta</installer-system-password-error>
+	<installer-system-continue>Continuar...</installer-system-continue>
+	<installer-system-action>Acção</installer-system-action>
+	<installer-system-action-removeinstaller>remover o instalador de oneye</installer-system-action-removeinstaller>
+	<installer-system-back>Voltar ao menu</installer-system-back>
+	<installer-system-removeinstaller-really>Deseja mesmo remover o instalador oneye?</installer-system-removeinstaller-really>
+	<installer-system-action-resetsystem>Restabelecer ficheiros do sistema</installer-system-action-resetsystem>
+	<installer-update-error-extract>Os ficheiros de actualização não podem ser extraídos. Para actualizar oneye manualmente, mude o nome a "[package]" para "package.tar.gz" e extraia o conteúdo para a mesma directoria.</installer-update-error-extract>
+	<installer-system-uninstall-no>[span]Não[/span] o traz de volta à página do sistema.</installer-system-uninstall-no>
+	<installer-update-error-renaming>Não é possível mudar o nome à directoria "./eyeOS/". Faça-o manualmente para "[hash]" e substitua os ficheiros existentes.</installer-update-error-renaming>
+	<installer-update-do>Actualizar oneye!</installer-update-do>
+	<installer-update-error-under15>Esta actualização é só para a versão 1.5 do eyeos e superior. Está a utilizar a [version1]. Actualize para eyeos 1.5 antes de actualizar para a [version2] do oneye.</installer-update-error-under15>
+	<installer-update-title>Continuar a actualizar a instalação do oneye para a versão [version]</installer-update-title>
+	<installer-system-no>Não</installer-system-no>
+	<installer-update-continue>Continuar...</installer-update-continue>
+	<installer-system-yes>Sim</installer-system-yes>
+	<installer-system-title>Escolha uma das seguintes acções:</installer-system-title>
+	<installer-system-uninstall-really>Deseja mesmo desisntalar oneye?</installer-system-uninstall-really>
+	<installer-system-uninstall-yes>[span]Sim[/span] removerá oneye completamente!</installer-system-uninstall-yes>
+	<installer-lib-output-utf8>A sua versão do PHP não suporta UFT-8. Actualize o PHP ou instale o módulo mbstring. Sem ele, pode instalar e actualizar o oneye, mas pode encontrar problemas em algumas áreas do sistema que necessitem de suporte internacional.</installer-lib-output-utf8>
+	<installer-system-action-uninstall>Desinstalar oneye</installer-system-action-uninstall>
+	<installer-lib-output-title>Instalação oneye</installer-lib-output-title>
+	<installer-install-systemname>Nome para o sistema</installer-install-systemname>
+	<installer-install-passwords-notmatch>As passwords do "root" não são iguais!</installer-install-passwords-notmatch>
+	<installer-install-title>Preencha o seguinte formulário para instalar o oneye:</installer-install-title>
+	<installer-install-passwords-characters>A password do "root" deve ter mais de 3 caracteres.</installer-install-passwords-characters>
+	<installer-lib-check-md5>Aviso: verifique o "[package]" porque parece estar corrompido.</installer-lib-check-md5>
+	<installer-install-systemname-error>Tem que especificar um nome para o sistema</installer-install-systemname-error>
+	<installer-install-password-root>Password do "root"</installer-install-password-root>
+	<installer-install-error-renaming>Não foi possível mudar o nome da pasta "./eyeOS/". Por favor, mude-o manualmente para "[hash]"</installer-install-error-renaming>
+	<installer-install-continue>Continuar...</installer-install-continue>
+	<installer-install-password-retype>Escreva novamente a password</installer-install-password-retype>
+	<installer-lib-check-gzip>O seu servdiro parece não ter suporte para gzip. Para instalar oneye manualmente, mude o nome "[package]" para "package.tar.gz" e extraia o conteúdo para a mesma directoria.</installer-lib-check-gzip>
+	<installer-install-do>Instalar o oneye!</installer-install-do>
+	<installer-lib-output-lang-by>por</installer-lib-output-lang-by>
+	<installer-lib-check-notexist>Erro: "[file]" não existe.</installer-lib-check-notexist>
+	<installer-lib-output-lang-currentlang>Língua actual</installer-lib-output-lang-currentlang>
+	<installer-lib-output-imap>A sua instalação do PHP não tem suporte para IMAP. Se instalar o modulo IMAP poderá usar o cliente de e-mail</installer-lib-output-imap>
+	<installer-lib-output-lang-langs>Linguagens</installer-lib-output-lang-langs>
+	<installer-lib-output-sqlite>A sua instalação do PHP não tem suporte para bases de dados SQLite. Se instalar o modulo SQLite poderá, entre outras coisas, usar o cliente de e-mail</installer-lib-output-sqlite>
+	<installer-install-passwords-required>É obrigatória uma password para o "root"</installer-install-passwords-required>
+	<installer-lib-output-errors>Ocorreram erros durante a instalação:</installer-lib-output-errors>
+	<installer-lib-check-safemode>oneye necessita que desligue o SAFE_MODE que está activado neste momento. Modifique o ficheiro php.ini para colocar SAFE_MODE a OFF ou peça ajuda ao administrador do sistema.</installer-lib-check-safemode>
+	<installer-lib-check-newer>A actual instalação de oneye é mais recente que a actualização. Apague a directoria "installer]" por razões de segurança.</installer-lib-check-newer>
+	<installer-lib-check-permissions>Aviso: Dê permissões totais (CHMOD 777) a "[file]".</installer-lib-check-permissions>
+	<installer-lib-check-php>O servidor está a utilizar uma versão antiga de PHP. Actualize para PHP 5.0 ou superior antes de instalar oneye.</installer-lib-check-php>
+	<installer-install-allow-creation>Permitir aos utilizadores criarem contas</installer-install-allow-creation>
+	<installer-install-error-extract>Não foi possível extrair os ficheiros da instalação. Para instalar o oneye manualmente, mude o nome de "[package]" para "package.tar.gz" e extraia o conteúdo para a mesma pasta.</installer-install-error-extract>
+</translation>

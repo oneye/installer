@@ -1,0 +1,58 @@
+<translation>
+	<installer-install-continue>Weiter...</installer-install-continue>
+	<installer-install-do>oneye installieren!</installer-install-do>
+	<installer-install-error-extract>Die Installationsdateien konnten nicht entpackt werden. Um oneye zu installieren müssen Sie "[package]" in "package.tar.gz" umbennen und die Dateien des Paketes in den oneye-Ordner entpacken.</installer-install-error-extract>
+	<installer-install-systemname-error>Sie müssen einen Systemnamen angeben!</installer-install-systemname-error>
+	<installer-install-systemname>Systemname</installer-install-systemname>
+	<installer-install-error-renaming>Der Ordner "./eyeOS/" konnte nicht umbenannt werden. Bitte bennen Sie ihn manuell in "[hash]" um.</installer-install-error-renaming>
+	<installer-install-password-retype>Root-Passwort (erneut)</installer-install-password-retype>
+	<installer-install-password-root>Root-Passwort</installer-install-password-root>
+	<installer-install-passwords-characters>Das Passwort muss länger als dreich Zeichen sein!</installer-install-passwords-characters>
+	<installer-install-passwords-notmatch>Die Passwörter sind unterschiedlich!</installer-install-passwords-notmatch>
+	<installer-install-passwords-required>Sie müssen das Root-Passwort angeben!</installer-install-passwords-required>
+	<installer-install-recommended>Empfohlen</installer-install-recommended>
+	<installer-install-required>Benötigt</installer-install-required>
+	<installer-lib-output-errors>Während der Installation sind Probleme aufgetreten!</installer-lib-output-errors>
+	<installer-lib-check-safemode>Sie müssen SAFE_MODE auf OFF setzen. Aktuell ist SAFE_MODE aktiv. Bitte bearbeiten Sie Ihre php.ini-Datei um SAFE_MODE zu deaktivieren oder bitten Sie Ihren System-Administrator um Hilfe.</installer-lib-check-safemode>
+	<installer-lib-check-newer>Ihre aktuelle oneye-Installation ist neuer als dieses Update. Bitte löschen Sie den Ordner "[installer]" aus Gründen der Sicherheit.</installer-lib-check-newer>
+	<installer-lib-check-md5>Warnung: Die Datei "[package]" entspricht nicht dem Original. Bitte überprüfen Sie diese!</installer-lib-check-md5>
+	<installer-lib-check-notexist>Fehler: "[file]" existiert nicht!</installer-lib-check-notexist>
+	<installer-install-allow-creation>Besucher dürfen sich registrieren</installer-install-allow-creation>
+	<installer-install-compat>Bitte überprüfen Sie vor der Installation Ihre PHP-Einstellungen.</installer-install-compat>
+	<installer-install-title>Füllen Sie die nachfolgenden Felder aus um oneye zu installieren.</installer-install-title>
+	<installer-lib-check-gzip>Ihr Server hat keine "gzip"-Unterstützung. Um  oneye zu installieren müssen Sie "[package]" in "package.tar.gz" umbennen und die Dateien des Paketes in den oneye-Ordner entpacken.</installer-lib-check-gzip>
+	<installer-lib-output-lang-by>von</installer-lib-output-lang-by>
+	<installer-lib-output-imap>Um E-Mails mit oneye empfangen zu können, muss das PHP-IMAP-Modul aktiviert sein.</installer-lib-output-imap>
+	<installer-lib-output-lang-currentlang>Aktuelle Sprache</installer-lib-output-lang-currentlang>
+	<installer-lib-check-php>Ihr Server verwendet eine nicht unterstützte PHP-Version. Bitte aktualisieren Sie auf PHP 5.0.0 oder höher bevor Sie oneye installieren!</installer-lib-check-php>
+	<installer-lib-check-permissions>Warnung: Bitte geben Sie "[file]" komplette Berechtigungen (chmod 777)!</installer-lib-check-permissions>
+	<installer-lib-output-lang-langs>Sprachen</installer-lib-output-lang-langs>
+	<installer-lib-output-sqlite>Um E-Mails mit oneye empfangen zu können, muss das PHP-SQLite-Modul aktiviert sein.</installer-lib-output-sqlite>
+	<installer-lib-output-title>oneye-Installation</installer-lib-output-title>
+	<installer-lib-output-utf8>Ihre PHP-Version bietet keine vollständige UTF-8-Unterstützung. Bitte aktualisieren Sie PHP oder installieren das "mbstring"-Modul. Sie werden womöglich Probleme mit Übersetzungen bemerken!</installer-lib-output-utf8>
+	<installer-system-action-removeinstaller>oneye-Installer löschen</installer-system-action-removeinstaller>
+	<installer-system-action-resetsystem>Systemdateien zurücksetzen</installer-system-action-resetsystem>
+	<installer-system-action-uninstall>oneye deinstallieren</installer-system-action-uninstall>
+	<installer-system-action>Aktion</installer-system-action>
+	<installer-system-back>Zurück</installer-system-back>
+	<installer-system-no>Nein</installer-system-no>
+	<installer-system-message-translations>Übersetzungen können von [a link] heruntergeladen werden.</installer-system-message-translations>
+	<installer-system-password>Root-Passwort</installer-system-password>
+	<installer-system-removeinstaller-no>[span]Nein[/span] bringt Sie zurück zur Systemseite.</installer-system-removeinstaller-no>
+	<installer-system-password-error>Das Passwort ist ungültig!</installer-system-password-error>
+	<installer-system-removeinstaller-really>Möchten Sie den oneye-Installer wirklich löschen?</installer-system-removeinstaller-really>
+	<installer-system-removeinstaller-yes>[span]Ja[/span] löscht alle Dateien des oneye-Installers!</installer-system-removeinstaller-yes>
+	<installer-system-title>Bitte wählen Sie eine der nachfolgenden Aktionen.</installer-system-title>
+	<installer-system-uninstall-no>[span]Nein[/span] bringt Sie zurück zur Systemseite.</installer-system-uninstall-no>
+	<installer-system-uninstall-really>Möchten Sie oneye wirklich deinstallieren?</installer-system-uninstall-really>
+	<installer-system-uninstall-yes>[span]Ja[/span] löscht oneye vollständig!</installer-system-uninstall-yes>
+	<installer-system-yes>Ja</installer-system-yes>
+	<installer-update-continue>Weiter...</installer-update-continue>
+	<installer-update-do>oneye aktualisieren!</installer-update-do>
+	<installer-update-error-extract>Die Updatedateien konnten nicht entpackt werden. Um oneye zu aktualisieren müssen Sie "[package]" in "package.tar.gz" umbennen und die Dateien des Paketes in den oneye-Ordner entpacken.</installer-update-error-extract>
+	<installer-update-error-renaming>Der Ordner "./eyeOS/" konnte nicht umbenannt werden. Bitte bennen Sie ihn manuell in "[hash]" um ud übrschreiben Sie bereits existierende Dateien.</installer-update-error-renaming>
+	<installer-update-error-under15>Dieser Updater ist nur für eyeos 1.5 und höher. Sie verwenden die Version [version1]. Bitte aktualisieren Sie auf eyeos 1.5 bevor Sie auf oneye [version2] aktualisieren.</installer-update-error-under15>
+	<installer-update-title>Fahren Sie fort um Ihr oneye-System auf die Version [version] zu aktualisieren.</installer-update-title>
+	<installer-system-message-remove>Bitte löschen Sie den Installer aus Gründen der Sicherheit!</installer-system-message-remove>
+	<installer-system-continue>Weiter...</installer-system-continue>
+</translation>

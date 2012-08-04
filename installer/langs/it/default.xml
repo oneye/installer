@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Root password</installer-system-password>
+	<installer-system-no>No</installer-system-no>
+	<installer-system-removeinstaller-no>[span]No[/span] vi riporterà alla pagina di sistema.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Voui realmente rimuovere l'installer oneye?</installer-system-removeinstaller-really>
+	<installer-system-title>Per favore scegli una delle seguenti azioni:</installer-system-title>
+	<installer-system-message-translations>Le traduzioni possono essere scaricate da [a link].</installer-system-message-translations>
+	<installer-system-message-remove>Per favore rimuovi l'installer per ragioni di sicurezza!</installer-system-message-remove>
+	<installer-system-action-uninstall>Disinstalla oneye</installer-system-action-uninstall>
+	<installer-system-back>Ritorna al menù</installer-system-back>
+	<installer-system-continue>Continua...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Yes[/span] verranno rimossi tutti i file dell'installer oneye!</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>I file di aggiornamento non possono essere estratti. Aggiorna oneye manualmente, rinomina "[package]" in "package.tar.gz" ed estrai il contenuto nella stessa directory.</installer-update-error-extract>
+	<installer-system-uninstall-really>Vuoi realmente disinstallare oneye?</installer-system-uninstall-really>
+	<installer-update-error-under15>Questo aggiornamento è solo per eyeos versione 1.5 e maggiori. Tu stai usando eyeos [version1]. Per favore aggiorna ad eyeos 1.5 prima di aggiornarti ad oneye [version2].</installer-update-error-under15>
+	<installer-update-title>Per favore continua ad aggiornare la tua installazione oneye alla versione [version].</installer-update-title>
+	<installer-update-do>Aggiorna oneye!</installer-update-do>
+	<installer-system-password-error>Root password non corretta!</installer-system-password-error>
+	<installer-update-error-renaming>Non puoi rinominare la directory "./eyeOS/". Per favore, rinominala manualmente in "[hash]" e sovrascrivi tutti i file esistenti.</installer-update-error-renaming>
+	<installer-update-continue>Continua...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Yes[/span] verrà rimosso oneye completamente!</installer-system-uninstall-yes>
+	<installer-system-yes>Si</installer-system-yes>
+	<installer-system-action-resetsystem>Risistema i file di sistema</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]No[/span] vi riporterà alla pagina di sistema.</installer-system-uninstall-no>
+	<installer-system-action>Azione</installer-system-action>
+	<installer-system-action-removeinstaller>Rimuovi l'installer oneye</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>E' richiesta la root password</installer-install-passwords-required>
+	<installer-install-passwords-characters>La root password deve essere maggiore di tre caratteri!</installer-install-passwords-characters>
+	<installer-install-title>Per favora compila il seguente campo per installare oneye:</installer-install-title>
+	<installer-lib-check-gzip>Il tuo server non sembra avere il supporto gzip. Per installare oneye manualmente, rinomina "[package]" in "package.tar.gz" ed estrai il contenuto all'interno della stessa directory.</installer-lib-check-gzip>
+	<installer-lib-check-newer>La corrente installazione di oneye è più nuova di quella aggiornata. Per favore cancella la directory "[installer]" per ragioni di sicurezza.</installer-lib-check-newer>
+	<installer-install-password-root>Root password</installer-install-password-root>
+	<installer-install-password-retype>Ridigita la password</installer-install-password-retype>
+	<installer-install-continue>Continua...</installer-install-continue>
+	<installer-install-error-extract>I file di installazione non possono essere estratti. Per installare oneye manualmente, rinomina "[package]" in "package.tar.gz" ed estrai il contenuto all'interno della stessa directory.</installer-install-error-extract>
+	<installer-install-error-renaming>Non puoi rinominare la directory "./eyeOS/". Per favore, rinominala manualmente in "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>Attenzione: Per favore, controlla "[package]" poichè sembra essere corrotto.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Linguaggio corrente</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Attenzione: Per favore, dà permessi completi (CHMOD 777) a "[file]".</installer-lib-check-permissions>
+	<installer-lib-output-title>Installazione oneye</installer-lib-output-title>
+	<installer-lib-output-utf8>La tua versione di PHP non ha pieno supporto UTF-8. Per favore considera l'aggiornamento PHP o installa il modulo mbstring. Senza esso, sarai abilitato ad installare ed aggiornare il tuo oneye, ma potresti incontrare problemi in alcune aree del sistema che richiedono supporto internazionale.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>di</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>La root password non corrisponde!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Linguaggi</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Ci sono stati dei problemi durante l'installazione:</installer-lib-output-errors>
+	<installer-lib-check-php>Il tuo server sta attualmente usando una versione di PHP non supportata. Per favore aggiorna a PHP 5.0 o maggiore prima di installare oneye.</installer-lib-check-php>
+	<installer-lib-check-safemode>Spiacente, ma oneye ha bisogno del SAFE_MODE per essere posto ad OFF. La tua configurazione attuale ha il SAFE_MODE attivato. Per favore modifica il tuo file PHP.ini ponendo SAFE_MODE off, o chiedi al tuo amministratore di sistema per saperne di più.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Consenti agli utenti di creare accounts</installer-install-allow-creation>
+	<installer-lib-check-notexist>Errore: "[file]" non esiste.</installer-lib-check-notexist>
+	<installer-install-do>Installa oneye!</installer-install-do>
+</translation>

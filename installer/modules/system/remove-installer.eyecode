@@ -1,0 +1,45 @@
+<?php
+/*
+  ___  _ __   ___ _   _  ___
+ / _ \| '_ \ / _ \ | | |/ _ \
+| (_) | | | |  __/ |_| |  __/
+ \___/|_| |_|\___|\__, |\___|
+                  |___/
+
+oneye is released under the GNU Affero General Public License Version 3 (AGPL3)
+ -> provided with this release in license.txt
+ -> or via web at www.gnu.org/licenses/agpl-3.0.txt
+
+Copyright © 2005 - 2010 eyeos Team (team@eyeos.org)
+             since 2010 Lars Knickrehm (mail@lars-sh.de)
+*/
+
+if ($_REQUEST['removeinstaller'] == 'yes') {
+	output_remove();
+} elseif ($_REQUEST['removeinstaller']) {
+	system_removeinstaller_no();
+} else {
+	system_removeinstaller_start();
+}
+
+function system_removeinstaller_start() {
+	$content = '<div class="system">
+	' . lang_translate('installer-system-removeinstaller-yes','[span]Yes[/span] will remove all oneye installer files!',array('[span]' => '<span style="font-size: 120%; font-weight: bold;">','[/span]' => '</span>')) . '
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	' . lang_translate('installer-system-removeinstaller-no','[span]No[/span] will bring you back to the system page.',array('[span]' => '<span style="font-size: 120%; font-weight: bold;">','[/span]' => '</span>')) . '
+</div>
+<div class="button">
+	<form action="./index.php?removeinstaller=yes" method="post"><input class="iButton" type="submit" value="' . lang_translate('installer-system-yes','Yes') . '" /></form> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <form action="./index.php?removeinstaller=no" method="post"><input class="iButton" type="submit" value="' . lang_translate('installer-system-no','No') . '" /></form>
+</div>';
+	output_do($content,'system',lang_translate('installer-system-removeinstaller-really','Do you really want to remove the oneye installer?'));
+}
+
+function system_removeinstaller_no() {
+	unset($_SECTION['password']);
+	system_start('removeinstaller',$_SECTION['password']);
+}
+?>

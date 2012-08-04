@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Yönetici şifresi</installer-system-password>
+	<installer-system-no>Hayır</installer-system-no>
+	<installer-system-removeinstaller-no>[span]Hayır[/span] sizi sistem sayfasına geri döndürecek.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Gerçekten oneye yükleyicisini kaldırmak istiyor musunuz?</installer-system-removeinstaller-really>
+	<installer-system-title>Lütfen bir işlem seçin:</installer-system-title>
+	<installer-system-message-translations>Dil çevirileri [a link] adresinden indirilebilir.</installer-system-message-translations>
+	<installer-system-message-remove>Lütfen yükleyiciyi güvenlik nedeniyle kaldırınız.</installer-system-message-remove>
+	<installer-system-action-uninstall>oneye'u Kaldır</installer-system-action-uninstall>
+	<installer-system-back>Menüye dön</installer-system-back>
+	<installer-system-continue>Devam...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Evet[/span] sizin tüm oneye yükleme dosyalarınızı silecek!</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>Yükleme dosyaları çıkarılamadı. oneye'u manuel olarak yüklemek için "[package]"  dosyasını "package.tar.gz" yapın ve aynı klasör içerisine çıkarın.</installer-update-error-extract>
+	<installer-system-uninstall-really>oneye'u gerçekten kaldırmak istiyormusunuz?</installer-system-uninstall-really>
+	<installer-update-error-under15>Bu güncelleştirici sadece eyeos 1.5 ve yüksekleri içindir. Siz eyeos [version1] kullanıyorsunuz. Lütfen eyeos 1.5' güncelleyin daha sonra oneye [version2]'ye güncelleyebilirsiniz.</installer-update-error-under15>
+	<installer-update-title>oneye [version] güncelleştirmesi için lütfen devam ediniz.</installer-update-title>
+	<installer-update-do>oneye'u Güncelle!</installer-update-do>
+	<installer-system-password-error>Yanlış şifre!</installer-system-password-error>
+	<installer-update-error-renaming>"./eyeOS/." klasörü yeniden adlandırılamadı. Lütfen siz yeniden adlandırınız,"[hash]"</installer-update-error-renaming>
+	<installer-update-continue>Devam...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Evet[/span] oneye'u tamamen kaldıracak!</installer-system-uninstall-yes>
+	<installer-system-yes>Evet</installer-system-yes>
+	<installer-system-action-resetsystem>Sistem dosyalarını yeniden ayarla</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]Hayır[/span] sizi sistem sayfasına geri dönderecek.</installer-system-uninstall-no>
+	<installer-system-action>İşlem</installer-system-action>
+	<installer-system-action-removeinstaller>oneye yükleyicisini kaldır</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Yönetici şifresi zorunludur!</installer-install-passwords-required>
+	<installer-install-passwords-characters>Yönetici şifresi üç karakterden fazla olmalı!</installer-install-passwords-characters>
+	<installer-install-title>oneye'u yüklemek için lütfen bu formu doldurunuz:</installer-install-title>
+	<installer-lib-check-gzip>Sunucunuzda gzip desteği bulunmuyor. oneye'u manuel olarak yüklemek için, "[package]" adını "package.tar.gz" olarak değiştirin ve aynı klasöre çıkarın.</installer-lib-check-gzip>
+	<installer-lib-check-newer>Şu andaki oneye yüklemesi bu güncellemeden daha yeni. Lütfen "[installer]" klasörünü güvenlik nedeniyle kaldırınız.</installer-lib-check-newer>
+	<installer-install-password-root>Yönetici(root) şifresi </installer-install-password-root>
+	<installer-install-password-retype>Şifre tekrar</installer-install-password-retype>
+	<installer-install-continue>Devam...</installer-install-continue>
+	<installer-install-error-extract>Yükleme dosyaları çıkarılamadı. oneye'u manuel olarak yüklemek için "[package]"  dosyasını "package.tar.gz" yapın ve aynı klasör içerisine çıkarın.</installer-install-error-extract>
+	<installer-install-error-renaming>"./eyeOS/." klasörü yeniden adlandırılamadı. Lütfen siz yeniden adlandırınız,"[hash]"</installer-install-error-renaming>
+	<installer-lib-check-md5>Uyarı: Lütfen "[package]"'ı kontrol edin, bozulmuş görünüyor.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Mevcut dil</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Uyarı: Lütfen, "[file]" dosyasın tüm hakları veriniz (CHMOD 777)</installer-lib-check-permissions>
+	<installer-lib-output-title>oneye Kurulumu</installer-lib-output-title>
+	<installer-lib-output-utf8>PHP versiyonunuz UTF-8 desteklemiyor. Lütfen PHP'nizi güncelleştirin yada mbstring modülünü yükleyin. Bu olmadan da oneye'u kurabilirsiniz fakat yerelleştirme gereken bir çok yerde problemlerle karşılaşabilirsiniz.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>tarafından</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Yönetici şifreleri uyuşmuyor!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Diller</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Yükleme sırasında hatalar oluştu:</installer-lib-output-errors>
+	<installer-lib-check-php>Sunucunuz oneye çalıştırmak için gerekli versiona sahip değil. Lütfen sunucunuzu PHP 5 veya daha yüksek bir sürüme yükseltiniz.</installer-lib-check-php>
+	<installer-lib-check-safemode>Üzgünüm, ama oneye SAFE_MODE özelliğinin kaldırılmasına ihtiyaç duyuyor. Şu anda bunun aksi bir durum söz konusu, bu yüzden php.ini dosyanızda SAFE_MODE'u kapatınız yada sistem yöneticinize danışınız.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Kullanıcı hesaplarına izin ver</installer-install-allow-creation>
+	<installer-lib-check-notexist>Hata: "[file]" bulunamadı.</installer-lib-check-notexist>
+	<installer-install-do>oneye'u Yükle!</installer-install-do>
+</translation>

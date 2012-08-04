@@ -1,0 +1,87 @@
+.allow_register {
+	border: 1px solid gray;
+	left: 220px;
+	position: absolute;
+	top: 59px;
+}
+
+.allow_register_text {
+	left: 15px;
+	position: absolute;
+	top: 60px;
+	width: 200px;
+}
+
+.errorHostname {
+	color: red;
+	left: 420px;
+	position: absolute;
+	top: 25px;
+	width: 260px;
+}
+
+.errorPassword {
+	color: red;
+	left: 420px;
+	position: absolute;
+	top: 42px;
+	width: 260px;
+}
+
+.hostname, .password, .password2 {
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-opera-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color:#FFFFFF;
+	border-color:#CCCCCC #BCBCBC #BCBCBC;
+	border-radius: 3px;
+	border-style:groove solid solid;
+	border-width:2px 1px 1px;
+	left: 150px;
+	position: absolute;
+	text-shadow: 1px 2px 2px #cccccc;
+	top: 24px;
+	width: 260px;
+}
+
+.hostname:focus, .password:focus, .password2:focus, .hostname:hover, .password:hover, .password2:hover {
+	border-color:#AAAAAA #858585 #858585;
+	border-style:groove solid solid;
+	border-width:2px 1px 1px;
+}
+
+.hostname_text, .password_text, .password2_text {
+	left: 15px;
+	position: absolute;
+	top: 25px;
+	width: 130px;
+}
+
+.options {
+	height: 90px;
+	left: 20px;
+	position: absolute;
+	top: 254px;
+	width: 714px;
+}
+
+.password, .password_text {
+	top: 24px;
+}
+
+.password2 {
+	top: 59px;
+}
+
+.password2_text {
+	top: 61px;
+}
+
+.passwords {
+	height: 100px;
+	left: 20px;
+	position: absolute;
+	top: 153px;
+	width: 714px;
+}

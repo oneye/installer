@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Rotpassord</installer-system-password>
+	<installer-system-no>Nei</installer-system-no>
+	<installer-system-removeinstaller-no>[span]Nei[/span] tar deg tilbake til systemsiden.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Ønsker du virkelig å fjerne installasjonsfilene?</installer-system-removeinstaller-really>
+	<installer-system-title>Velg en av følgende handlinger:</installer-system-title>
+	<installer-system-message-translations>Språkpakker kan lastes ned fra [a link].</installer-system-message-translations>
+	<installer-system-message-remove>Du bør fjerne installasjonsfilene av sikkerhetsårsaker.</installer-system-message-remove>
+	<installer-system-action-uninstall>Avinstallere oneye</installer-system-action-uninstall>
+	<installer-system-back>Tilbake til menyen</installer-system-back>
+	<installer-system-continue>Fortsett</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Ja[/span] vil fjerne alle installasjonsfiler! </installer-system-removeinstaller-yes>
+	<installer-update-error-extract>Klarte ikke å pakke ut oppdateringsfilene. Du kan oppdatere oneye manuelt ved å endre navnet på "[package]" til "package.tar.gz" og pakke ut innholdet i den samme mappen.</installer-update-error-extract>
+	<installer-system-uninstall-really>Er du sikker på at du vil avinstallere oneye?</installer-system-uninstall-really>
+	<installer-update-error-under15>Denne oppdateringen er laget for eyeos versjon 1.5 og nyere. Du bruker eyeos [version1]. Du må oppdatere til eyeos 1.5 før du kan oppdatere til oneye [version2].</installer-update-error-under15>
+	<installer-update-title>Fortsett for å oppdatere installasjonen til versjon [version].</installer-update-title>
+	<installer-update-do>Oppdater oneye!</installer-update-do>
+	<installer-system-password-error>Ugyldig rotpassord!</installer-system-password-error>
+	<installer-update-error-renaming>Kunne ikke endre navn på mappen "./eyeOS/". Du må endre navnet manuelt til "[hash]" og overskrive alle eksisterende filer.</installer-update-error-renaming>
+	<installer-update-continue>Fortsett...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Ja[/span] vil slette oneye fullstendig!</installer-system-uninstall-yes>
+	<installer-system-yes>Ja</installer-system-yes>
+	<installer-system-action-resetsystem>Tilbakestille systemfiler</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]Nei[/span] tar deg tilbake til systemsiden.</installer-system-uninstall-no>
+	<installer-system-action>Handling</installer-system-action>
+	<installer-system-action-removeinstaller>Fjerne installasjonsfiler</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Rotpassord er påkrevet!</installer-install-passwords-required>
+	<installer-install-passwords-characters>Rotpassordet må  være på mer enn tre tegn!</installer-install-passwords-characters>
+	<installer-install-title>Fyll ut følgende skjema for å installere oneye:</installer-install-title>
+	<installer-lib-check-gzip>Serveren ser ikke ut til å ha støtte for gzip. Du kan installere oneye manuelt ved å endre "[package]" til "package.tar.gz" og pakke ut innholdet i den samme mappen.</installer-lib-check-gzip>
+	<installer-lib-check-newer>Den installerte versjonen av oneye er nyere enn denne oppdateringen. Du bør slette mappen "[installer]" av sikkerhetsårsaker.</installer-lib-check-newer>
+	<installer-install-password-root>Rotpassord</installer-install-password-root>
+	<installer-install-password-retype>Gjenta passord</installer-install-password-retype>
+	<installer-install-continue>Fortsett...</installer-install-continue>
+	<installer-install-error-extract>Klarte ikke å pakke ut installasjonsfilene. For å installere oneye manuelt kan du endre navnet "[package]" til "package.tar.gz" og pakke ut innholdet i den samme mappen.</installer-install-error-extract>
+	<installer-install-error-renaming>Klarte ikke å endre navnet på mappen "./eyeOS/". Du må endre navnet manuelt til "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>Advarsel: Det ser ut til at filen "[package]" er ødelagt. Du må kontrollere filen.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Gjeldende språk</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Advarsel: Du må gi fulle rettigheter (CHMOD 777) til "[file]".</installer-lib-check-permissions>
+	<installer-lib-output-title>oneye installasjon</installer-lib-output-title>
+	<installer-lib-output-utf8>Din versjon av PHP har ikke full støtte for UTF-8. Du bør vurdere å oppdatere PHP eller installere modulen mbstring. Uten dette vil du kunne installere og oppdatere oneye, men det kan oppstå problemer i deler av systemet i forbindelse med utenlandske tegn.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>av</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Rotpassordene er ikke like!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Språkpakker</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Det oppstod problemer under installasjonen:</installer-lib-output-errors>
+	<installer-lib-check-php>Serveren bruker en versjon av PHP som ikke er støttet. Du må oppdatere til PHP 5.0 eller nyere før du installerer oneye.</installer-lib-check-php>
+	<installer-lib-check-safemode>Beklager, men oneye krever at SAFE_MODE er satt til OFF. På denne serveren er SAFE_MODE aktivert. Du må slå av SAFE_MODE i php.ini eller kontakt systemadministrator for mer hjelp.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Gi brukerne rettigheter til å opprette kontoer</installer-install-allow-creation>
+	<installer-lib-check-notexist>Feil: "[file]" eksisterer ikke.</installer-lib-check-notexist>
+	<installer-install-do>Installer oneye!</installer-install-do>
+</translation>

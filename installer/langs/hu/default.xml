@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Root-jelszó</installer-system-password>
+	<installer-system-no>Nem</installer-system-no>
+	<installer-system-removeinstaller-no>[span]Nem-re[/span] nyomva visszatérhet az előző oldalra.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Biztosan eltávolítja az oneye telepítőjét?</installer-system-removeinstaller-really>
+	<installer-system-title>Kérem válasszon az alábbi lehetőségek közül!</installer-system-title>
+	<installer-system-message-translations>Fordításokat innen tölthet le: [a link]</installer-system-message-translations>
+	<installer-system-message-remove>Kérem, hogy biztonsági okokból távolítsa el a telepítőt!</installer-system-message-remove>
+	<installer-system-action-uninstall>Az oneye eltávolítása</installer-system-action-uninstall>
+	<installer-system-back>Visszatérés a menübe</installer-system-back>
+	<installer-system-continue>Folytatás...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Igen-re[/span] nyomva letörlődik az oneye-telepítő minden állománya.</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>A frissítéshez szükséges állományokat nem lehetett kicsomagolni. Kézi frissítéshez nevezze át a(z) "[package]"-t "package.tar.gz"-vé és ugyanoda csomagolja ki a tartalmát.</installer-update-error-extract>
+	<installer-system-uninstall-really>Tényleg eltávolítja az oneye-rendszert?</installer-system-uninstall-really>
+	<installer-update-error-under15>Ez a frissítő csak az 1.5-ös vagy annál frissebb eyeos-okkal használható. Ön most a következő verziójú eyeos-t használja: [version1]. Először frissítse fel rendszerét az 1.5-ös verziójú eyeos-ra és utána felfrissítheti a rendszert a legfrissebb változatra ([version2]).</installer-update-error-under15>
+	<installer-update-title>Kattintson a folytatás gombra az oneye [version] verziójának frissítéséhez.</installer-update-title>
+	<installer-update-do>Frissítse az oneye-t!</installer-update-do>
+	<installer-system-password-error>Nem jó a root-jelszó!</installer-system-password-error>
+	<installer-update-error-renaming>Nem lehetett átnevezni az "./eyeOS/" könyvtárat. Kérem nevezze át kézzel erre: "[hash]", majd írja felül a már meglévő állományokat!</installer-update-error-renaming>
+	<installer-update-continue>Folytatás...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Igen-re[/span] nyomva törlődik az egész oneye-rendszer, minden beállításával együtt.</installer-system-uninstall-yes>
+	<installer-system-yes>Igen</installer-system-yes>
+	<installer-system-action-resetsystem>Rendszerállományok visszaállítása</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]Nem-re[/span] nyomva visszatérhet az előző oldalra.</installer-system-uninstall-no>
+	<installer-system-action>Lehetőségek</installer-system-action>
+	<installer-system-action-removeinstaller>Az oneye-telepítő eltávolítása</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Be kell írnia egy root-jelszót!</installer-install-passwords-required>
+	<installer-install-passwords-characters>A root-jelszónak több, mint három karakterből kell állnia!</installer-install-passwords-characters>
+	<installer-install-title>Kérem, töltse ki a következőket a telepítéshez!</installer-install-title>
+	<installer-lib-check-gzip>A kiszolgáló nem tudja kezelni a gzip-csomagokat. Kézi telepítéshez nevezze át a(z) "[package]"-t "package.tar.gz"-vé és ugyanoda csomagolja ki a tartalmát.</installer-lib-check-gzip>
+	<installer-lib-check-newer>A már feltelepített oneye rendszer frissebb, mint a most telepítendő. Kérem, hogy biztonsági okokból távolítsa el a(z) "[installer]" könyvtárat.</installer-lib-check-newer>
+	<installer-install-password-root>Root jelszó</installer-install-password-root>
+	<installer-install-password-retype>Jelszó újból</installer-install-password-retype>
+	<installer-install-continue>Folytatás...</installer-install-continue>
+	<installer-install-error-extract>A telepítőállományokat nem lehetett kicsomagolni. Kézi telepítéshez nevezze át a(z) "[package]"-t "package.tar.gz"-vé és ugyanoda csomagolja ki a tartalmát.</installer-install-error-extract>
+	<installer-install-error-renaming>Nem lehetett átnevezni az "./eyeOS/" könyvtárat. Kérem nevezze át kézzel erre: "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>Figyelem! Kérem ellenőrizze a(z) "[package]" tartalmát, mert hibás lehet!</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Kiválasztott nyelv</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Figylelem! Kérem adjon teljes jogosultságokat (CHMOD 777) a(z) "[file]" állománynak!</installer-lib-check-permissions>
+	<installer-lib-output-title>Az oneye telepítése</installer-lib-output-title>
+	<installer-lib-output-utf8>Ez a PHP-verzió nem támogatja teljes mértékben az UTF-8-kóldolást. Ha lehetősége van rá, frissítse a PHP-t, vagy telepítse fel az mbstring modult. Ha nem változtat semmit, akkor a rendszer még működőképes lesz, de hiányos lesz a nyelvi támogatása.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>Fordította:</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>A root-jelszó nem egyezik meg!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>További nyelvek</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>A következő gondok adódtak a telepítés során:</installer-lib-output-errors>
+	<installer-lib-check-php>A kiszolgáló egy régebbi, nem támogatott PHP-verziót használ. Kérem frissítse rendszerét legalább 5.0-ás verziójú PHP-re!</installer-lib-check-php>
+	<installer-lib-check-safemode>Sajnos az oneye működéséhez a SAFE_MODE kapcsolónak OFF állapotban kell lennie. A kiszolgálón, melyre telepítené a rendszert, ez a mód be van kapcsolva. Kérem módosítsa a php.ini-t, vagy keresse meg a rendszer üzemeltetőjét és kérjen tőle segítséget!</installer-lib-check-safemode>
+	<installer-install-allow-creation>A felhasználók regisztrálhatnak</installer-install-allow-creation>
+	<installer-lib-check-notexist>Hiba: A(z) "[file]" állomány nem létezik!</installer-lib-check-notexist>
+	<installer-install-do>Telepítés</installer-install-do>
+</translation>

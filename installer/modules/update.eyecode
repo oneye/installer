@@ -1,0 +1,140 @@
+<?php
+/*
+  ___  _ __   ___ _   _  ___
+ / _ \| '_ \ / _ \ | | |/ _ \
+| (_) | | | |  __/ |_| |  __/
+ \___/|_| |_|\___|\__, |\___|
+                  |___/
+
+oneye is released under the GNU Affero General Public License Version 3 (AGPL3)
+ -> provided with this release in license.txt
+ -> or via web at www.gnu.org/licenses/agpl-3.0.txt
+
+Copyright © 2005 - 2010 eyeos Team (team@eyeos.org)
+             since 2010 Lars Knickrehm (mail@lars-sh.de)
+*/
+
+include_once('./settings.php');
+if (check_versions(EYEOS_VERSION,'1.5.0.0') == 2) {
+	output_errors(array(lang_translate('installer-update-error-under15','This updater is only for eyeos version 1.5 and higher. You are using eyeos [version1]. Please update to eyeos 1.5 before updating to oneye [version2].',array('[version1]' => EYEOS_VERSION,'[version2]' => ONEYE_VERSION))));
+} elseif ($_REQUEST['update']) {
+	update_do($_REQUEST['update']);
+} else {
+	if (TYPE_SYSTEM) {
+		$resetsystem = '&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <form action="./index.php?back=1" method="post"><input class="iButton" type="submit" value="' . lang_translate('installer-system-back','Back to menu') . '" /></form>';
+	}
+	output_do('<div class="button"><form action="./index.php?update=1" method="post"><input class="iButton" type="submit" value="' . lang_translate('installer-update-do','Update oneye!') . '" /></form>' . $resetsystem . '</div>',0,lang_translate('installer-update-title','Please continue to update your oneye installation to version [version].',array('[version]' => ONEYE_VERSION)));
+}
+
+function update_do($update) {
+	// Load install.xml
+	$xmlUpdate = xml_xml2array(file_get_contents(INSTALL_DIR . 'files/update.xml'));
+	
+	// Untar install.eyepackage
+	if ($update != '2') {
+		if (TYPE_UPDATE === 1 || TYPE_SYSTEM === 1) {
+			include_once(INSTALL_DIR . 'pcl-tar.eyecode');
+			if (!PclTarExtract(INSTALL_PACKAGE,'./','','tgz')) {
+				output_errors(array(lang_translate('installer-update-error-extract','The update files could not be extracted. To update oneye manually, rename "[package]" to "package.tar.gz" and extract the contents into the same directory.',array('[package]' => INSTALL_PACKAGE))));
+			}
+		}
+		
+		// Delete files and folders
+		foreach ($xmlUpdate['eyePackage'][0]['delete'][0] as $key => $value) {
+			if (check_versions(EYEOS_VERSION,$key) < 2) {
+				foreach ($value as $file) {
+					path_delete('./eyeOS/' . $file);
+				}
+			}
+		}
+		foreach ($xmlUpdate['eyeInstaller'][0]['files'][0]['delete'] as $file) {
+			$file = str_replace('%apps%','./' . REAL_EYE_ROOT . '/' . APP_DIR,$file);
+			$file = str_replace('%extern%','./' . REAL_EYE_ROOT . '/' . EXTERN_DIR,$file);
+			$file = str_replace('%system%','./' . REAL_EYE_ROOT . '/' . SYSTEM_DIR,$file);
+			path_delete($file);
+		}
+		
+		// Rename dir
+		if (!path_move('./eyeOS/','./' . REAL_EYE_ROOT . '/')) {
+			output_errors(array(lang_translate('installer-update-error-renaming','Could not rename the directory "./eyeOS/". Please, rename it manually to "[hash]" and overwrite all existing files.',array('[hash]' => REAL_EYE_ROOT))),array('./index.php?update=2',lang_translate('installer-update-continue','Continue...')),0);
+		}
+	}
+	
+	// Update module files
+	$xmlModules = xml_xml2array(file_get_contents(INSTALL_DIR . 'files/modules.xml'));
+	foreach ($xmlModules['modules'][0] as $module => $files) {
+		@mkdir('./' . $module . '/');
+		foreach ($files[0] as $file => $content) {
+			if (strpos($file,'/')) {
+				path_create('./' . $module . '/' . substr($file,0,strrpos($file,'/')));
+			}
+			file_put_contents('./' . $module . '/' . $file,base64_decode($content[0]));
+		}
+	}
+	
+	// Update the system configuration files
+	foreach ($xmlUpdate['eyeInstaller'][0]['conf'] as $array) {
+		foreach ($array as $conf => $array2) {
+			$conf_xml = xml_xml2array(file_get_contents('./' . REAL_EYE_ROOT . '/' . SYSTEM_DIR . '/' . SYSTEM_CONF_DIR . '/' . $conf . '.xml'));
+			foreach ($array2[0] as $action => $object) {
+				if ($action == 'delete') {
+					foreach ($object as $key) {
+						unset($conf_xml['CONFIG'][0][$key]);
+					}
+				} elseif ($action == 'add') {
+					foreach ($object[0] as $key => $value) {
+						if (!$conf_xml['CONFIG'][0][$key]) {
+							$conf_xml['CONFIG'][0][$key] = $value;
+						}
+					}
+				} else {
+					foreach ($object[0] as $key => $value) {
+						$conf_xml['CONFIG'][0][$key] = $value;
+					}
+				}
+			}
+			file_put_contents('./' . REAL_EYE_ROOT . '/' . SYSTEM_DIR . '/' . SYSTEM_CONF_DIR . '/' . $conf . '.xml',xml_array2xml($conf_xml));
+		}
+	}
+	
+	// Update CACHE_VERSION
+	$xmlSystem = xml_xml2array(file_get_contents('./' . REAL_EYE_ROOT . '/' . SYSTEM_DIR . '/' . SYSTEM_CONF_DIR . '/system.xml'));
+	$xmlSystem['CONFIG'][0]['CACHE_VERSION'][0] += 1;
+	if (EYEOS_VERSION == '1.8.5.0' && $xmlSystem['CONFIG'][0]['EYEOS_DEBUG_MODE'][0] == 3 && $xmlSystem['CONFIG'][0]['EXTERN_CACHE_AUTO'][0] == 0) {
+		$xmlSystem['CONFIG'][0]['EYEOS_DEBUG_MODE'][0] = 0;
+		$xmlSystem['CONFIG'][0]['EXTERN_CACHE_AUTO'][0] = 2;
+	}
+	file_put_contents('./' . REAL_EYE_ROOT . '/' . SYSTEM_DIR . '/' . SYSTEM_CONF_DIR . '/system.xml',xml_array2xml($xmlSystem));
+	
+	// Version specific update functions
+	$path = INSTALL_DIR . 'modules/update/';
+	if ($handler = @opendir($path)) {
+		while (false !== ($file = readdir($handler))) {
+			if (substr($file,-8) == '.eyecode') {
+				$list[] = basename($file,'.eyecode');
+			}
+		}
+		closedir($handler);
+	}
+	uasort($list,'check_version_uasort');
+	foreach ($list as $entry) {
+		if (check_versions($entry,EYEOS_VERSION) < 2) {
+			include(INSTALL_DIR . 'modules/update/' . $entry . '.eyecode');
+		}
+	}
+	
+	// index.php
+	copy(INSTALL_DIR . 'files/index.txt','./index.php');
+	// settings.php
+	$settingsphp = file_get_contents(INSTALL_DIR . 'files/settings.txt');
+	foreach ($xmlUpdate['eyeUpdater'][0]['settings'][0] as $key => $value) {
+		if (defined($key)) {
+			$settingsphp = str_replace("define('" . $key . "','" . $value[0] . "');","define('" . $key . "','" . constant($key) . "');",$settingsphp);
+		}
+	}
+	file_put_contents('./settings.php',$settingsphp);
+	
+	// Remove the installer
+	output_remove();
+}
+?>

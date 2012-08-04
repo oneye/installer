@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>كلمة سرِّ المدير</installer-system-password>
+	<installer-system-no>لا</installer-system-no>
+	<installer-system-removeinstaller-no>[span]لا[/span] سترجعك إلى صفحة النظام.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>أتريد حقا إزالة مُنصِّب oneye؟</installer-system-removeinstaller-really>
+	<installer-system-title>اختر أحد الأفعال التالية:</installer-system-title>
+	<installer-system-message-translations>يمكن تنزيل الترجمات من [link].</installer-system-message-translations>
+	<installer-system-message-remove>أزل المنصب لدواعي الأمن.</installer-system-message-remove>
+	<installer-system-action-uninstall>أزِل oneye</installer-system-action-uninstall>
+	<installer-system-back>ارجع إلى القائمة</installer-system-back>
+	<installer-system-continue>واصِل...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]نعم[/span] ستزيل كل ملفات مُنَصِّب oneye!</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>تعذَّر استخراج ملفات التحديث. لتحديث oneye يدويا غير اسم "[package]" إلى "package.tar.gz" ثم استخرج محتوياته في الدليل ذاته.</installer-update-error-extract>
+	<installer-system-uninstall-really>أتريد حقا إزالة oneye؟</installer-system-uninstall-really>
+	<installer-update-error-under15>هذا المحدِّث لا يصلح سوى لإصدارات eyeos 1.5 و ما يليها، بينما الإصدارة المُنصَّبة [version1]. رقِّ eyeos إلى الإصدارة 1.5 قبل التحديث إلى الإصدارة [version2].</installer-update-error-under15>
+	<installer-update-title>واصل تحديث تنصيبة oneye إلى الإصدارة [version].</installer-update-title>
+	<installer-update-do>حدِّث oneye</installer-update-do>
+	<installer-system-password-error>كلمة سرِّ المدير غير صحيحة!</installer-system-password-error>
+	<installer-update-error-renaming>تعذَّرت تسمية الدليل "./eyeOS/". غيَّر اسمه يدويا إلى "[hash]" و اكتب فوق كل الملفات الموجودة.</installer-update-error-renaming>
+	<installer-update-continue>واصِل...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]نعم[/span] ستزيل oneye تماما!</installer-system-uninstall-yes>
+	<installer-system-yes>نعم</installer-system-yes>
+	<installer-system-action-resetsystem>صفِّر ملفات النظام</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]لا[/span] سترجعك إلى صفحة النظام.</installer-system-uninstall-no>
+	<installer-system-action>فِعل</installer-system-action>
+	<installer-system-action-removeinstaller>أزل مُنَصِّب oneye</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>كلمة سر المدير مطلوبة</installer-install-passwords-required>
+	<installer-install-passwords-characters>كلمة سر المدير ينبغي أن تكون أطول من ثلاثة محارف.</installer-install-passwords-characters>
+	<installer-install-title>املأ الاستمارة التالية لتنصيب oneye:</installer-install-title>
+	<installer-lib-check-gzip>يبدو أن الخادوم ليس به دعم gzip. لتنصيب oneye يدويا، غيِّر اسم "[package]" إلى "package.tar.gz" ثم استخرج محتوياته في الدليل ذاته.</installer-lib-check-gzip>
+	<installer-lib-check-newer>إصدارة oneye المُنَصَّبة حاليا أحدث من هذه. ألغِ الدليل "[installer]" لدواعي الأمن.</installer-lib-check-newer>
+	<installer-install-password-root>كلمة سر المدير</installer-install-password-root>
+	<installer-install-password-retype>أعد إدخال كلمة السِّر</installer-install-password-retype>
+	<installer-install-continue>واصل</installer-install-continue>
+	<installer-install-error-extract>تعذَّر استخراج الملفات. لتنصيب oneye يدويا غيِّر اسم "[package]" إلى "package.tar.gz" ثم استخرج محتوياته في الدليل ذاته.</installer-install-error-extract>
+	<installer-install-error-renaming>تعذَّرت تسمية الدليل "./eyeOS/". غيِّر اسمه يدويا إلى "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>تحذير: افحص "[package]" لأنها تبدو معطوبة.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>اللغة الحالية</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>تحذير: خصص الصلاحيات الكلية (chmod 777) للملف "[file]".</installer-lib-check-permissions>
+	<installer-lib-output-title>يجري تنصيب oneye</installer-lib-output-title>
+	<installer-lib-output-utf8>إصدارة PHP العاملة لا تدعم UTF-8 كاملا. نحثك على ترقية PHP أو تنصيب وحدة mbstring، فبغيرها قد تقابلك مشكلات في بعض نواحي النظام التي تتطلب دعم الأقلمة.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>أنجزه</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>كلمة السر لا تطابق توكيدها</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>اللغات</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>طرأت مشكلات أثناء التنصيب:</installer-lib-output-errors>
+	<installer-lib-check-php>يُشغِّل الخادوم حاليا إصدارة من PHP غير مدعومة. رقِّ PHP إلى الإصدارة 5.0 أو ما يليها قبل تنصيب oneye.</installer-lib-check-php>
+	<installer-lib-check-safemode>يتطلَّب oneye تعطيل SAFE_MODE، غير أن التضبيطات الحالية تُفَعِّل SAFE_MODE. حرر ملف php.ini لضبط SAFE_MODE إلى OFF، أو اطلب مساعدة مدير النظيم.</installer-lib-check-safemode>
+	<installer-install-allow-creation>مَكِّن المستخدمين من فتح حسابات</installer-install-allow-creation>
+	<installer-lib-check-notexist>عُطل: "[file]" غير موجود.</installer-lib-check-notexist>
+	<installer-install-do>نصِّب oneye</installer-install-do>
+</translation>

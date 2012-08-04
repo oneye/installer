@@ -1,0 +1,54 @@
+.errorPassword {
+	color: red;
+	left: 420px;
+	position: absolute;
+	top: 43px;
+	width: 260px;
+}
+
+.action {
+	border: 1px solid gray;
+	left: 150px;
+	position: absolute;
+	top: 24px;
+	width: 260px;
+}
+
+.action_text {
+	left: 15px;
+	position: absolute;
+	top: 25px;
+	width: 130px;
+}
+
+.actions {
+	border: 1px solid gray;
+	height: 130px;
+	left: 20px;
+	position: absolute;
+	top: 254px;
+	width: 714px;
+}
+
+.password {
+	border: 1px solid gray;
+	left: 150px;
+	position: absolute;
+	top: 59px;
+	width: 260px;
+}
+
+.password_text {
+	left: 15px;
+	position: absolute;
+	top: 60px;
+	width: 130px;
+}
+
+.system {
+	font-size: 12px;
+	left: 20px;
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+}

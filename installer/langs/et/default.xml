@@ -1,0 +1,27 @@
+<translation>
+	<installer-system-password>Root parool</installer-system-password>
+	<installer-system-title>Palun vali üks järgnevast tegevusest :</installer-system-title>
+	<installer-system-no>Ei</installer-system-no>
+	<installer-system-continue>Jätka...</installer-system-continue>
+	<installer-system-removeinstaller-really>Oled sa kindel , et tahad eemalda oneye install faili?</installer-system-removeinstaller-really>
+	<installer-update-title>Palun jätka oneye [version] versiooni uuendamisega.</installer-update-title>
+	<installer-system-action>Tegevus</installer-system-action>
+	<installer-system-password-error>Root parool pole õige!</installer-system-password-error>
+	<installer-update-do>Uuenda oneye!</installer-update-do>
+	<installer-update-continue>Jätka...</installer-update-continue>
+	<installer-system-yes>Jah</installer-system-yes>
+	<installer-system-back>Tagasi algusesse</installer-system-back>
+	<installer-system-action-resetsystem>Taasta süsteemi failid</installer-system-action-resetsystem>
+	<installer-lib-check-gzip>Tundub , et sinu server ei toeata gzipi. oneye-i manuaalseks installeerimiseks nimeta ümber ''[package]'' ''package.tar.gz'' ja paki lahti nad samasse kausta.</installer-lib-check-gzip>
+	<installer-lib-check-notexist>Viga: ''[file]'' ei eksisteeri.</installer-lib-check-notexist>
+	<installer-install-password-retype>Korda parooli</installer-install-password-retype>
+	<installer-install-do>Installi oneye!</installer-install-do>
+	<installer-lib-check-newer>Praegune oneye on uuem kui see uuendus. Palun kustuta ''[installer]'' turvariski tõttu.</installer-lib-check-newer>
+	<installer-system-action-removeinstaller>Palun eemalda oneye install fail</installer-system-action-removeinstaller>
+	<installer-install-allow-creation>Luba kasutajatel luua kontosid</installer-install-allow-creation>
+	<installer-install-password-root>Root kasutaja parool</installer-install-password-root>
+	<installer-lib-output-lang-langs>Keeled</installer-lib-output-lang-langs>
+	<installer-lib-output-lang-currentlang>Praegune keel</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Hoiatus: Palun anna ''[file]'' kõik õigused serveri poolt (CHMOD 777).</installer-lib-check-permissions>
+	<installer-install-continue>Jätka...</installer-install-continue>
+</translation>

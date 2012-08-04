@@ -1,0 +1,140 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Verdana,Arial,sans-serif,FreeSans;
+	font-size: 11px;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+}
+
+form {
+	display: inline;
+}
+
+input {
+	font-family: Verdana,Arial,sans-serif,FreeSans;
+}
+
+.background {
+	background:#88D0FF url(./../../output/images/background.jpg) repeat top center;
+	height: 100%;
+	min-height: 530px;
+	min-width: 760px;
+	position: absolute;
+	width: 100%;
+}
+
+.button {
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-opera-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	text-shadow:1px 1px 1px #ffffff;
+	top: 400px;
+	width: 100%;
+}
+
+.errors {
+	border: 1px solid gray;
+	font-size: 12px;
+	height: 200px;
+	left: 20px;
+	line-height: 200%;
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 141px;
+	width: 694px;
+}
+
+.iButton {
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-opera-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #ffffff  url(./../../output/images/button.png);
+	border-color:#AEAEAE #7F7F7F #7F7F7F #AEAEAE;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	font-size: 11px;
+	padding: 2px;
+	text-shadow:1px 1px 1px #ffffff;
+}
+
+.iButton:focus {
+	background-image: url(./../../output/images/button_press.png);
+}
+
+.iButton:hover {
+	border-color:#A1C6F3 #6A9BD8 #6A9BD8 #A1C6F3;
+}
+
+.logo {
+	background-image: url(./../../output/images/logo.png);
+	height: 49px;
+	right: 20px;
+	opacity: 0.5;
+	position: absolute;
+	top: 44px;
+	width: 46px;
+}
+
+.logo:hover {
+	opacity: 1;
+}
+
+select {
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-opera-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-color:#aaaaaa #858585 #858585;
+	border-radius: 5px;
+	border-style:groove solid solid;
+	border-width:2px 1px 1px;
+	height: 22px;
+	padding-left: 2px;
+}
+
+.title {
+	font-size: 12px;
+	font-weight: bold;
+	left: 20px;
+	position: absolute;
+	top: 70px;
+	width: 650px;
+}
+
+.warning {
+	border: 1px solid gray;
+	font-size: 12px;
+	height: 32px;
+	left: 20px;
+	overflow: auto;
+	padding: 3px 5px;
+	position: absolute;
+	top: 29px;
+	width: 645px;
+}
+
+.window {
+	background-image: url(./../../output/images/window.png);
+	height: 538px;
+	left: 50%;
+	margin-left: -377px;
+	margin-top: -264px;
+	position: absolute;
+	top: 50%;
+	width: 764px;
+}

@@ -1,0 +1,93 @@
+/* default.css */
+
+body {
+	direction: rtl;
+	font-family: "Tahoma","Lucida Grande",sans-serif,Verdana;
+}
+
+input {
+	font-family: "Tahoma","Lucida Grande",sans-serif,Verdana;
+}
+
+.errors {
+	right: 20px;
+}
+
+.logo {
+	left: 20px;
+	right: auto;
+}
+
+.title {
+	right: 20px;
+}
+
+.warning {
+	right: 20px;
+}
+
+/* install.css & system.css */
+
+.action {
+	right: 150px;
+}
+
+.action_text {
+	right: 15px;
+}
+
+.actions {
+	right: 20px;
+}
+
+.allow_register {
+	right: 220px;
+}
+
+.allow_register_text {
+	right: 15px;
+}
+
+.errorHostname {
+	right: 420px;
+}
+
+.errorPassword {
+	right: 420px;
+}
+
+.hostname {
+	right: 150px;
+}
+
+.hostname_text {
+	right: 15px;
+}
+
+.options {
+	right: 20px;
+}
+
+.password {
+	right: 150px;
+}
+
+.password_text {
+	right: 15px;
+}
+
+.password2 {
+	right: 150px;
+}
+
+.password2_text {
+	right: 15px;
+}
+
+.passwords {
+	right: 20px;
+}
+
+.system {
+	right: 20px;
+}

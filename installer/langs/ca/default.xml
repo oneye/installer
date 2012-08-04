@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Contrasenya de root</installer-system-password>
+	<installer-system-no>No</installer-system-no>
+	<installer-system-removeinstaller-no>[span]No[/span] et portarà a la pàgina de sistema.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Segur que vols eliminar l'instal·lador oneye?</installer-system-removeinstaller-really>
+	<installer-system-title>Tria una de les accions següents:</installer-system-title>
+	<installer-system-message-translations>Les traduccions es poden descarregar des de [a link].</installer-system-message-translations>
+	<installer-system-message-remove>Si us plau, elimina l'instal·lador per raons de seguretat!</installer-system-message-remove>
+	<installer-system-action-uninstall>Desinstal·lla l'oneye</installer-system-action-uninstall>
+	<installer-system-back>Torna al menú</installer-system-back>
+	<installer-system-continue>Continua</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Sí[/span] t'eliminarà els arxius d'instal·lació de l'oneye</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>Els arxius d'actualització no s'han pogut extreure. Per actualitzar l'oneye manualment, reanomena "[package]" per "package.tar.gz" i extreure els seus continguts.</installer-update-error-extract>
+	<installer-system-uninstall-really>Segur que vols desinstal·lar l'oneye?</installer-system-uninstall-really>
+	<installer-update-error-under15>Aquest actualitzador és només per a l'eyeos 1-5 i superior. Estàs utilitzant l'eyeos [version1]. Si us plau, actualitza a l'eyeos 1.5 abans de fer aquesta petita actualització a l'oneye [version2].</installer-update-error-under15>
+	<installer-update-title>Si us plau, continua actualitzant el teu oneye a la versió [version].</installer-update-title>
+	<installer-update-do>Actualitza l'oneye</installer-update-do>
+	<installer-system-password-error>Contrasenya de root incorrecta</installer-system-password-error>
+	<installer-update-error-renaming>No s'ha pogut reanomenar el directori "./eyeOS/". Si us plau, reanomena'l manualment a "[hash]" i sobreescriu tots els arxius nous.</installer-update-error-renaming>
+	<installer-update-continue>Continua</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Sí[/span] eliminarà l'oneye completament</installer-system-uninstall-yes>
+	<installer-system-yes>Sí</installer-system-yes>
+	<installer-system-action-resetsystem>Reinicia els arxius de sistema</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]No[/span] et portarà a la pàgina del sistema.</installer-system-uninstall-no>
+	<installer-system-action>Acció</installer-system-action>
+	<installer-system-action-removeinstaller>Elimina l'instal·lador de l'oneye</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>La contrasenya root és necessària!</installer-install-passwords-required>
+	<installer-install-passwords-characters>La contrasenya de root ha de ser més llarga de 3 caràcters!</installer-install-passwords-characters>
+	<installer-install-title>Si us plau, ompla el següent formulari per instal·lar l'oneye:</installer-install-title>
+	<installer-lib-check-gzip>El teu servidor no sembla donar suport al gzip. Per instal·lar l'oneye manualment, reanomena "[package]" a "package.tar.gz" i extreu els continguts a la mateixa carpeta.</installer-lib-check-gzip>
+	<installer-lib-check-newer>L'instal·lació de l'oneye actual és més nova que la que estàs instal·lant. Si us plau, elimina la carpeta "[installer]" per raons de seguretat.</installer-lib-check-newer>
+	<installer-install-password-root>Contrasenya root</installer-install-password-root>
+	<installer-install-password-retype>Reescriu la contrasenya</installer-install-password-retype>
+	<installer-install-continue>Continua</installer-install-continue>
+	<installer-install-error-extract>Els arxius d'instal·lació no s'han pogut extreure. Per instal·lar l'oneye manualment, reanomena "[package]" a "package.tar.gz i extreu els continguts a la mateixa carpeta.</installer-install-error-extract>
+	<installer-install-error-renaming>No s'ha pogut reanomenar el directori "./eyeOS/". Si us plau, canvia-li el nom manualment a "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>Advertència: comprova "[package]" ja que sembla que està corromput</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Idimoa actual</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Advertència: dóna permisos totals (CHMOD 777) a "[file]".</installer-lib-check-permissions>
+	<installer-lib-output-title>Instal·lació oneye</installer-lib-output-title>
+	<installer-lib-output-utf8>La teva versió del PHP no té un suport complert amb UTF-8. Considera l'actualització del PHP o instal·lar el mòdul mbstring. Sense això, podràs instal·lar i actualitzar l'oneye, però potser trobaràs algun error en algunes àrees del sistema d'internacionalització.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>per</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Les contrasenyes root no coincideixen!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Idiomes</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Hi ha hagut problemes durant la instal·lació</installer-lib-output-errors>
+	<installer-lib-check-php>El teu servidor utilitza una versió del PHP no suportada. Si us plau, actualitza a PHP 5.0 o superior abans d'instal·lar l'oneye.</installer-lib-check-php>
+	<installer-lib-check-safemode>Perdona, però l'oneye necessita el SAFE_MODE desactivat. Actualment el tens activat i necessites modificar-ho al teu arxiu php.ini o demanar al teu administrador més ajuda.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Permet als usuaris crear comptes</installer-install-allow-creation>
+	<installer-lib-check-notexist>Error: "[file]" no existeix.</installer-lib-check-notexist>
+	<installer-install-do>Instal·la l'oneye</installer-install-do>
+</translation>

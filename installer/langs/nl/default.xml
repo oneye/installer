@@ -1,0 +1,55 @@
+<translation>
+	<installer-system-password>Root paswoord</installer-system-password>
+	<installer-system-message-translations>Vertalingen kunnen worden gedownload van [a link].</installer-system-message-translations>
+	<installer-system-removeinstaller-no>[span]Nee[/span] zal je terug brengen naar de systeem pagina,</installer-system-removeinstaller-no>
+	<installer-system-message-remove>Alstublieft verwijder de installer om veiligheidsredenen!</installer-system-message-remove>
+	<installer-system-removeinstaller-yes>[span]Ja[/span] zal alle oneye installer bestanden verwijderen!</installer-system-removeinstaller-yes>
+	<installer-system-password-error>Fout root paswoord!</installer-system-password-error>
+	<installer-system-continue>Doorgaan...</installer-system-continue>
+	<installer-system-action>Actie</installer-system-action>
+	<installer-system-action-removeinstaller>Verwijderen de oneye installer.</installer-system-action-removeinstaller>
+	<installer-system-back>Terug naar het menu</installer-system-back>
+	<installer-system-removeinstaller-really>Weet je zeker dat je de oneye installer wilt verwijderen?</installer-system-removeinstaller-really>
+	<installer-system-action-resetsystem>Reset systeem bestanden</installer-system-action-resetsystem>
+	<installer-update-error-extract>De update bestanden kunnen niet worden uitgepakt. Om oneye handmatig te updaten, hernoem "[package]" naar "package.tar.zg" en pakt de inhoud uit in dezelfde directorie.</installer-update-error-extract>
+	<installer-system-uninstall-no>[span]Nee[/span] zal je naar de systeem pagina terug brengen.</installer-system-uninstall-no>
+	<installer-update-error-renaming>Kan de directorie "./eyeOS/". Alstublieft hernoem het handmatig naar "[hash]" en overschrijf alle bestaande bestanden.</installer-update-error-renaming>
+	<installer-update-do>Update oneye!</installer-update-do>
+	<installer-update-error-under15>Deze updates is alleen voor eyeos versie 1.5 of hoger. Je gebruikt eyeos [version1]. Alstublieft update eerst naar eyeos 1.5 voordat je update naar oneye [version2].</installer-update-error-under15>
+	<installer-update-title>Alstublieft ga verder met het updaten van je oneye installatie naar versie [version].</installer-update-title>
+	<installer-system-no>Nee</installer-system-no>
+	<installer-update-continue>Doorgaan...</installer-update-continue>
+	<installer-system-yes>Ja</installer-system-yes>
+	<installer-system-title>Alstublieft kies één van de volgende acties:</installer-system-title>
+	<installer-system-uninstall-really>Weet u zeker dat u oneye wilt deinstalleren?</installer-system-uninstall-really>
+	<installer-system-uninstall-yes>[span]Ja[/span] zal oneye volledig verwijderen!</installer-system-uninstall-yes>
+	<installer-lib-output-utf8>Je PHP versie ondersteund UTF-8 niet helemaal. Alstublieft overweeg om PHP te updaten of om de mbstring module te installeren. Zonder dit, zul je wel oneye kunnen installeren of updaten, maar je zult wel problemen kunnen tegenkomen in sommige onderdelen van het systeem dat internationaliserings steun nodig heeft.</installer-lib-output-utf8>
+	<installer-system-action-uninstall>Verwijderen oneye</installer-system-action-uninstall>
+	<installer-lib-output-title>oneye installatie</installer-lib-output-title>
+	<installer-install-systemname>Systeemnaam</installer-install-systemname>
+	<installer-install-passwords-notmatch>De wachtwoorden komen niet overeen</installer-install-passwords-notmatch>
+	<installer-install-title>Vul alstublieft het volgende formulier in om oneye te installeren:</installer-install-title>
+	<installer-install-passwords-characters>Het root wachtwoord moet meer dan drie tekens bevatten!</installer-install-passwords-characters>
+	<installer-lib-check-md5>Waarschuwing: Controleer "[package]" want het lijkt corrupt te zijn.</installer-lib-check-md5>
+	<installer-install-systemname-error>Je moet een systeemnaam specificeren!</installer-install-systemname-error>
+	<installer-install-password-root>Root wachtwoord</installer-install-password-root>
+	<installer-install-error-renaming>Kan de map "./eyeOS/" niet hernoemen. Hernoem deze map handmatig naar "[hash]".</installer-install-error-renaming>
+	<installer-install-continue>Doorgaan...</installer-install-continue>
+	<installer-install-password-retype>Herhaal wachtwoord</installer-install-password-retype>
+	<installer-lib-check-gzip>Jouw server lijkt gzip niet te ondersteunen. Om oneye handmatig te installeren moet je "[package]" handmatig naar "installatie.tar.gz" hernoemen en de inhoud in dezelfde map uitpakken.</installer-lib-check-gzip>
+	<installer-install-do>oneye installeren!</installer-install-do>
+	<installer-lib-output-lang-by>door</installer-lib-output-lang-by>
+	<installer-lib-check-notexist>Error:  "file" bestaat niet.</installer-lib-check-notexist>
+	<installer-lib-output-lang-currentlang>Huidige taal</installer-lib-output-lang-currentlang>
+	<installer-lib-output-imap>Je PHP installatie ondersteund IMAP niet. Overweeg om de IMAP module te installeren. Zonder dit kun je de Mail Client niet gebruiken.</installer-lib-output-imap>
+	<installer-lib-output-lang-langs>Talen</installer-lib-output-lang-langs>
+	<installer-lib-output-sqlite>Je PHP installatie ondersteund SQLite niet. Overweeg om de SQLite module te installeren. Zonder dit kun je de Mail Client niet gebruiken.</installer-lib-output-sqlite>
+	<installer-install-passwords-required>Het rootwachtwoord is verplicht.</installer-install-passwords-required>
+	<installer-lib-output-errors>Er waren problemen tijdens het installeren:</installer-lib-output-errors>
+	<installer-lib-check-safemode>Sorry, voor oneye is het nodig dat SAFE_MODE op OFF staat. Je huidige configuratie heeft SAFE_MODE geactiveerd. Pas het bestand php.ini aan om SAFE_MODE af te zetten, of vraag je systeembeheerder voor meer hulp.</installer-lib-check-safemode>
+	<installer-lib-check-newer>De huidige oneye installatie is nieuwer dan deze update. Verwijderen alstublieft de map "[installer]" wegens veiligheidsredenen.</installer-lib-check-newer>
+	<installer-lib-check-permissions>Waarschuwing: Geef volledige toestemming (CHMOD 777) aan dit "[file]".</installer-lib-check-permissions>
+	<installer-lib-check-php>Je server gebruikt momenteel een PHP versie die niet wordt ondersteund. Update je server naar PHP 5.0 of hoger voordat je oneye installeert.</installer-lib-check-php>
+	<installer-install-allow-creation>Gebruikers mogen zich registreren</installer-install-allow-creation>
+	<installer-install-error-extract>De installatiebestanden konden niet worden uitgepakt. Om oneye handmatig te installeren, hernoem "[package]" naar "installatie.tar.gz" en pak de bestanden in dezelfde map uit.</installer-install-error-extract>
+</translation>

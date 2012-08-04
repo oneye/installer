@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Root лозинка</installer-system-password>
+	<installer-system-no>Не</installer-system-no>
+	<installer-system-removeinstaller-no>[span]Не[/span] ће вас вратити ка страници система.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Да ли сте сигурни да желите да склоните oneye инсталациони фајл?</installer-system-removeinstaller-really>
+	<installer-system-title>Молимо изаберите једну од понуђених акција:</installer-system-title>
+	<installer-system-message-translations>Преводи се могу преузети са [a link].</installer-system-message-translations>
+	<installer-system-message-remove>Молимо склоните инсталациони фајл ради сигурности!</installer-system-message-remove>
+	<installer-system-action-uninstall>Уклони у потпуности oneye</installer-system-action-uninstall>
+	<installer-system-back>Назад ка менију</installer-system-back>
+	<installer-system-continue>Настави...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]Да[/span] ће склонити све oneye инсталационе фајлове!</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>Упдејтовани фајлови не могу бити екстрактовани. Да упдејтујете oneye ручно, промените назив "[package]" у "package.tar.gz" и екстрактујте фајлове у исти директоријум.</installer-update-error-extract>
+	<installer-system-uninstall-really>Да ли сте сигурни да желите у потпуности да обришете oneye?</installer-system-uninstall-really>
+	<installer-update-error-under15>Овај апдејтер је само за eyeos верзију 1.5 и већу. Ви користите eyeos [version1]. Молимо упдејтујте у eyeos 1.5 пре него што упдејтујете у oneye [version2].</installer-update-error-under15>
+	<installer-update-title>Молимо наставите да упдејтујете вашу oneye инсталацију у верзију [version].</installer-update-title>
+	<installer-update-do>Упдејтуј oneye!</installer-update-do>
+	<installer-system-password-error>Погрешна root лозинка!</installer-system-password-error>
+	<installer-update-error-renaming>Не могу да променим назив директоријума "./eyeOS/". Молимо, промените назив ручно у "[hash]" и пребаците преко свих постојећих фајлова.</installer-update-error-renaming>
+	<installer-update-continue>Настави...</installer-update-continue>
+	<installer-system-uninstall-yes>[span]Да[/span] ће обрисати oneye у потпуности!</installer-system-uninstall-yes>
+	<installer-system-yes>Да</installer-system-yes>
+	<installer-system-action-resetsystem>Ресетуј системске фајлове</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]Не[/span] ће вас вратити назад ка страници система.</installer-system-uninstall-no>
+	<installer-system-action>Акција</installer-system-action>
+	<installer-system-action-removeinstaller>Склоните oneye инсталацију</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Root лозинка је обавезна!</installer-install-passwords-required>
+	<installer-install-passwords-characters>Root лозинка мора бити са најмање три карактера!</installer-install-passwords-characters>
+	<installer-install-title>Молимо попуните ову форму за инсталацију oneye:</installer-install-title>
+	<installer-lib-check-gzip>Ваш сервер изгледа да не подржава gzip формат. Да инсталирате ручно oneye, промените назив "[package]" у "package.tar.gz" и екстрактујте фајлове у исти директоријум.</installer-lib-check-gzip>
+	<installer-lib-check-newer>Тренутна oneye инсталација је новија него овај апдејт. Молимо обришите директоријум "[installer]" ради сигурности.</installer-lib-check-newer>
+	<installer-install-password-root>Root лозинка</installer-install-password-root>
+	<installer-install-password-retype>Поновите лозинку</installer-install-password-retype>
+	<installer-install-continue>Настави...</installer-install-continue>
+	<installer-install-error-extract>Инсталациони фајлови не могу бити екстрактовани. Да инсталирате oneye ручно, промените назив "[package]" у "package.tsr.gz" и екстрактујте фајлове у исти директоријум.</installer-install-error-extract>
+	<installer-install-error-renaming>Не могу да променим назив директоријума "./eyeOS/". Молимо, промените назив ручно у "[hash]".</installer-install-error-renaming>
+	<installer-lib-check-md5>Упозорење: Молимо, проверите "[package]" пошто се чини да је оштећена.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Тренутни језик</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Упозорење: Молимо, ставите пун приступ (CHMOD 777) ка фајлу "[file]".</installer-lib-check-permissions>
+	<installer-lib-output-title>oneye Инсталација</installer-lib-output-title>
+	<installer-lib-output-utf8>Ваша PHP верзија не подржава UTF-8 у потпуности. Молимо размислите о апдејтовању PHP-а или инсталације mbstring модула. Без тога, моћи ћете да инсталирате и апдејтујете ваш oneye, али могу се догодити неки проблеми на вашем систему које захтевају интернационалну подршку.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>by</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Root лозинке нису исте!</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Језици</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Догодили су се проблеми приликом инсталације:</installer-lib-output-errors>
+	<installer-lib-check-php>Ваш сервер тренутно користи не подржану верзију PHP-а. Молимо упдејтујте у верзију PHP 5.0 или новију пре него што наставите са инсталацијом oneye-а.</installer-lib-check-php>
+	<installer-lib-check-safemode>Извините, али oneye-у је потребно да SAFE_MODE буде стављен на OFF. Ваша тренутна конфигурација има SAFE_MODE активирано. Молимо, измените ваш php.ini фајл и ставите SAFE_MODE у off, или питајте вашег систем администратора за помоћ.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Дозволи корисницима да креирају налоге</installer-install-allow-creation>
+	<installer-lib-check-notexist>Грешка: "[file]" не постоји.</installer-lib-check-notexist>
+	<installer-install-do>Инсталирај oneye!</installer-install-do>
+</translation>

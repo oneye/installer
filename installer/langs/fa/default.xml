@@ -1,0 +1,44 @@
+<translation>
+	<installer-system-password-error>کلمه عبور ریشه اشتباه می باشد!</installer-system-password-error>
+	<installer-system-removeinstaller-no>[span]خیر[/span] به صفحه سیستم باز میگردید</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>آیا شما واقاً از حذف نصب کننده سیستم عامل مطمئن هستید؟</installer-system-removeinstaller-really>
+	<installer-system-removeinstaller-yes>[span]بلی[/span]  تمام فایل های نصب کننده oneye حذف خواهد شد!</installer-system-removeinstaller-yes>
+	<installer-system-no>خیر</installer-system-no>
+	<installer-system-title>لطفاً یکی از عملیات ها را انتخاب کنید</installer-system-title>
+	<installer-system-continue>ادامه...</installer-system-continue>
+	<installer-system-message-remove>لطفاً برای تدابیر امنیتی نصب کننده را حذف کنید!</installer-system-message-remove>
+	<installer-system-message-translations>ترجمه ها را می توانید از [a link] دانلود کنید.</installer-system-message-translations>
+	<installer-system-uninstall-no>[span]خیر[/span] به صفحه سیستم باز میگردید</installer-system-uninstall-no>
+	<installer-update-error-extract>فایل های بروز رسانی امکان خارج شدن از حالت فشرده را ندارند. جهت بروز رسانی  "[package]" را به "package.tar.gz" تغییر نام دهید و تمام محتویات را داخل دایرکتوری همسان از حالت فشرده خارج کنید.</installer-update-error-extract>
+	<installer-update-error-renaming>امکان تغییر نام دایرکتوری "./eyeOS/" وجود ندارد. لطفاً آن را بصورت دستی به "[hash]" تغییر نام دهید و بر روی تمام فایل های مجود اعمال کنید.</installer-update-error-renaming>
+	<installer-update-error-under15>نرم افزار بروز رسانی برای سیستم عامل نسخه 1.5 و یا بالاتر تهییه شده است. شما از سیتم عامل eyeos  نسخه [version1] استفاده میکنید.لطفا به eyeos 1.5 بروز شوید قبل از بروزرسانی به نسخه oneye [version2]</installer-update-error-under15>
+	<installer-update-title>لطفاً به بروزرسانی نصب سیستم عامل به نسخه [version] ادامه دهید.</installer-update-title>
+	<installer-system-password>کلمه عبور ریشه</installer-system-password>
+	<installer-update-do>بروز رسانی سیستم عامل!</installer-update-do>
+	<installer-update-continue>ادامه...</installer-update-continue>
+	<installer-system-uninstall-really>آیا شما واقاً از حذف سیستم عامل مطمئن هستید؟</installer-system-uninstall-really>
+	<installer-system-uninstall-yes>[span]بلی[/span] سیستم عامل بطور کامل حذف خواهد شد!</installer-system-uninstall-yes>
+	<installer-system-yes>بلی</installer-system-yes>
+	<installer-system-action>عملیات</installer-system-action>
+	<installer-system-action-uninstall>حذف سیستم عامل</installer-system-action-uninstall>
+	<installer-install-passwords-notmatch>کلمات عبور ریشه یکسان نمی باشند</installer-install-passwords-notmatch>
+	<installer-install-passwords-required>کلمه عبور ریشه ضروری میباشد!</installer-install-passwords-required>
+	<installer-install-title>لطفاً فرم زیر را برای نصب oneye کامل کنید:</installer-install-title>
+	<installer-lib-check-newer>سیستم عامل نصب شده جدید تر از این پکیچ بروز رسانی میباشد. لطفاً دایرکتوری "[installer]" را برای تدابیر امنیتی حذف کنید.</installer-lib-check-newer>
+	<installer-lib-check-md5>اخطار: لطفاً "[package]" را بررسی کنید، به نظر می رسد با مشکل مواجه شده.</installer-lib-check-md5>
+	<installer-install-passwords-characters>کلمه عبور ریشه باید بیشتر از سه حرف باشد!</installer-install-passwords-characters>
+	<installer-install-continue>ادامه...</installer-install-continue>
+	<installer-install-error-renaming>امکان تغییر نام دایرکتوری "./eyeOS/"  وجود ندارد. لطفاً بصورت دستی به "[hash]" تغییر نام دهید.</installer-install-error-renaming>
+	<installer-install-password-retype>کلمه عبور را مجدداً وارد کنید</installer-install-password-retype>
+	<installer-lib-check-notexist>خطا: "[file]" موجود نمی باشد.</installer-lib-check-notexist>
+	<installer-lib-check-permissions>اخطار: لطفاً، به "[file]" مجوز دسترسی کامل بدهید (CHMOD 777)</installer-lib-check-permissions>
+	<installer-lib-output-title>نصب اولین سیستم عامل تحت وب فارسی</installer-lib-output-title>
+	<installer-lib-output-utf8>نسخه php شما از UTF-8 بطور کامل پشتیبانی نمیکند. لطفاً PHP را بروز کنید و یا ماژول mbstring را نصب کنید. بدون این امکان نصب و بروز رسانی oneye وجود دارد، اما ممکن در استفاده از برخی بخش های سیستم ه به ترجمه ها نیاز دارید با مشکل مواجه شوید.</installer-lib-output-utf8>
+	<installer-system-action-removeinstaller>نصب کننده  سیستم عامل را حذف کنید</installer-system-action-removeinstaller>
+	<installer-lib-output-lang-langs>زبان ها</installer-lib-output-lang-langs>
+	<installer-lib-output-lang-currentlang>زبان قبلی</installer-lib-output-lang-currentlang>
+	<installer-lib-output-errors>در هنگام نصب مشکلاتی  رخ داد:</installer-lib-output-errors>
+	<installer-lib-output-lang-by>توسط</installer-lib-output-lang-by>
+	<installer-install-allow-creation>امکان ثبت نام کاربران</installer-install-allow-creation>
+	<installer-install-password-root>کلمه عبور ریشه</installer-install-password-root>
+</translation>

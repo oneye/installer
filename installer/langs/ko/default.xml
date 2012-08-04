@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Root 비밀번호</installer-system-password>
+	<installer-system-no>아니오</installer-system-no>
+	<installer-system-removeinstaller-no>[span]아니오[/span] 를 선택하면 다시 시스템 페이지를 표시합니다.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>정말로 oneye 설치 프로그램을 삭제하시겠습니까?</installer-system-removeinstaller-really>
+	<installer-system-title>실행할 작업을 선택하세요:</installer-system-title>
+	<installer-system-message-translations>언어 패치는 [a link]에서 다운로드 할 수 있습니다.</installer-system-message-translations>
+	<installer-system-message-remove>보안상의 이유로 인해 설치파일을 제거해주십시오.</installer-system-message-remove>
+	<installer-system-action-uninstall>oneye 제거</installer-system-action-uninstall>
+	<installer-system-back>메뉴로 돌아가기</installer-system-back>
+	<installer-system-continue>계속...</installer-system-continue>
+	<installer-system-removeinstaller-yes>[span]예[/span] 를 선택하면 oneye 설치 파일들을 제거합니다.</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>업데이트 파일의 압축 해제가 실패했습니다. oneye를 수동으로 업데이트 하려면, "[package]"를 "package.tar.gz"로 변경하고 같은 폴더에 압축을 해제하세요.</installer-update-error-extract>
+	<installer-system-uninstall-really>정말로 oneye를 삭제하기를 원하십니까?</installer-system-uninstall-really>
+	<installer-update-error-under15>eyeos 1.5 이상만 업데이트 할 수 있습니다. 현재 설치된 eyeos의 버전은 [version1]입니다. oneye [version2]로 업데이트 하기 전에 eyeos 1.5로 업데이트 하십시오.</installer-update-error-under15>
+	<installer-update-title>계속 진행하시면 oneye를 [version]으로 업데이트합니다.</installer-update-title>
+	<installer-update-do>oneye 업데이트!</installer-update-do>
+	<installer-system-password-error>Root 비밀번호가 틀립니다.</installer-system-password-error>
+	<installer-update-error-renaming>"./eyeOS/" 폴더의 이름을 변경하지 못했습니다. 해당 폴더를 "[hash]"로 변경하고 모든 파일을 덮어쓰십시오.</installer-update-error-renaming>
+	<installer-update-continue>계속</installer-update-continue>
+	<installer-system-uninstall-yes>[span]예[/span] 는 oneye를 완전히 제거할 것입니다.</installer-system-uninstall-yes>
+	<installer-system-yes>네</installer-system-yes>
+	<installer-system-action-resetsystem>시스템 파일 초기화</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>[span]아니오[/span] 는 다시 시스템 페이지를 표시합니다.</installer-system-uninstall-no>
+	<installer-system-action>작업</installer-system-action>
+	<installer-system-action-removeinstaller>oneye 설치 프로그램 제거</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Root 비밀번호가 필요합니다.</installer-install-passwords-required>
+	<installer-install-passwords-characters>Root 계정의 비밀번호는 적어도 3글자 이상으로 이루어져야 합니다.</installer-install-passwords-characters>
+	<installer-install-title>oneye를 설치하려면 양식을 채워주십시오.</installer-install-title>
+	<installer-lib-check-gzip>이 서버는 gzip를 지원하지 않습니다. oneye를 직접 설치하려면, "[package]"의 이름을 "package.tar.gz"로 변환하고 같은 디렉터리에 압축을 해제하십시오.</installer-lib-check-gzip>
+	<installer-lib-check-newer>현재 oneye의 버전이 업데이트 하려는 버전보다 최근버전입니다. "[intstaller]" 폴더를 삭제하여주세요.</installer-lib-check-newer>
+	<installer-install-password-root>Root 계정 비밀번호</installer-install-password-root>
+	<installer-install-password-retype>비밀번호 재입력</installer-install-password-retype>
+	<installer-install-continue>계속...</installer-install-continue>
+	<installer-install-error-extract>설치 파일의 압축 해제에 실패했습니다. oneye를 직접 설치하려면 "[package]"를 "package.tar.gz"로 이름 변경한 후에 같은 디렉터리에 압축을 해제하십시오.</installer-install-error-extract>
+	<installer-install-error-renaming>"./eyeOS/"디렉터리의 이름 변경에 실패하였습니다. 직접 "[hash]"로 변경해주십시오.</installer-install-error-renaming>
+	<installer-lib-check-md5>경고: "[package]"파일이 수정되었는지 확인하여주십시오.</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>언어 선택</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>경고: "[file]"에게 모든 권한(CHMOD 777)을 부여하여주십시오.</installer-lib-check-permissions>
+	<installer-lib-output-title>oneye 설치</installer-lib-output-title>
+	<installer-lib-output-utf8>이 서버의 PHP는 UTF-8을 제대로 지원하지 않습니다. PHP를 업데이트 하거나, mbstring 모듈을 설치하여주세요. 해당 사항을 수행하지 않고도 oneye를 설치하거나 업데이트 할 수 있지만, 시스템의 몇몇 부분에서 다국어 부분에 문제가 있을 수 있습니다.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>by</installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Root 비밀번호가 맞지 않습니다.</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>언어</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>설치 과정중에 문제가 발생했습니다:</installer-lib-output-errors>
+	<installer-lib-check-php>이 서버는 지원되지 않는 버전의 PHP를 사용하고 있습니다. oneye의 작동을 위해서는 PHP 5.0 또는 그 이상의 버전을 설치해야합니다.</installer-lib-check-php>
+	<installer-lib-check-safemode>oneye를 사용하기 위해서는 SAFE_MODE가 OFF로 설정되어야합니다. 현재 설청은 SAFE_MODE = On 입니다. php.ini 파일을 열어서 SAFE_MODE를 off로 수정하거나 시스템 관리자에게 문의하십시오.</installer-lib-check-safemode>
+	<installer-install-allow-creation>사용자가 새로운 계정을 생성할 수 있도록 합니다.</installer-install-allow-creation>
+	<installer-lib-check-notexist>오류: "[file]"이 존재하지 않습니다.</installer-lib-check-notexist>
+	<installer-install-do>oneye를 설치합니다!</installer-install-do>
+</translation>

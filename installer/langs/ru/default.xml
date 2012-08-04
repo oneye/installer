@@ -1,0 +1,51 @@
+<translation>
+	<installer-system-password>Пароль пользователя «root»</installer-system-password>
+	<installer-system-no>Нет</installer-system-no>
+	<installer-system-removeinstaller-no>Если выбрать [span]Нет[/span], будет выполнен возврат на страницу системы.</installer-system-removeinstaller-no>
+	<installer-system-removeinstaller-really>Удалить инсталлятор oneye?</installer-system-removeinstaller-really>
+	<installer-system-title>Выберите одно из следующих действий:</installer-system-title>
+	<installer-system-message-translations>Перевод можно загрузить по ссылке [a link].</installer-system-message-translations>
+	<installer-system-message-remove>Для обеспечения безопасности удалите инсталлятор!</installer-system-message-remove>
+	<installer-system-action-uninstall>Удалить oneye</installer-system-action-uninstall>
+	<installer-system-back>Назад в меню</installer-system-back>
+	<installer-system-continue>Продолжить...</installer-system-continue>
+	<installer-system-removeinstaller-yes>Если выбрать [span]Да[/span], будут удалены файлы инсталлятора!</installer-system-removeinstaller-yes>
+	<installer-update-error-extract>Не удаётся распаковать файлы обновления. Чтобы установить oneye вручную, переименуйте файл «[package]» в «package.tar.gz» и распакуйте его содержимое в текущий каталог.</installer-update-error-extract>
+	<installer-system-uninstall-really>Удалить систему oneye?</installer-system-uninstall-really>
+	<installer-update-error-under15>Программа обновления предназначена только для eyeos версии 1.5 или более старшей. Установленная версия eyeos — [version1]. Обновите систему eyeos до версии 1.5 перед обновлением её до версии [version2].</installer-update-error-under15>
+	<installer-update-title>Обновление установленной версии oneye до версии [version]</installer-update-title>
+	<installer-update-do>Обновить oneye!</installer-update-do>
+	<installer-system-password-error>Неверный пароль!</installer-system-password-error>
+	<installer-update-error-renaming>Не удаётся переименовать каталог «./eyeOS/». Переименуйте его вручную в «[hash]» и перезапишите существующие файлы.</installer-update-error-renaming>
+	<installer-update-continue>Продолжить...</installer-update-continue>
+	<installer-system-uninstall-yes>Если выбрать [span]Да[/span], система oneye будет полностью удалена!</installer-system-uninstall-yes>
+	<installer-system-yes>Да</installer-system-yes>
+	<installer-system-action-resetsystem>Сбросить системные файлы</installer-system-action-resetsystem>
+	<installer-system-uninstall-no>Если выбрать [span]Нет[/span], будет выполнен возврат на страницу системы.</installer-system-uninstall-no>
+	<installer-system-action>Действие</installer-system-action>
+	<installer-system-action-removeinstaller>Удалить инсталлятор oneye</installer-system-action-removeinstaller>
+	<installer-install-passwords-required>Укажите пароль для пользователя «root»</installer-install-passwords-required>
+	<installer-install-passwords-characters>Пароль пользователя «root» должен иметь длину не менее 3 символов</installer-install-passwords-characters>
+	<installer-install-title>Для установки oneye необходимо заполнить следующие поля</installer-install-title>
+	<installer-lib-check-gzip>Похоже, на данном сервере нет поддержки gzip. Чтобы установить oneye вручную, переименуйте файл «[package]» в «package.tar.gz» и распакуйте его содержимое в текущий каталог.</installer-lib-check-gzip>
+	<installer-lib-check-newer>Версия установленной oneye более новая, чем данное обновление. Для обеспечения безопасности удалите каталог «[installer]».</installer-lib-check-newer>
+	<installer-install-password-root>Пароль «root»</installer-install-password-root>
+	<installer-install-password-retype>Пароль (ещё раз)</installer-install-password-retype>
+	<installer-install-continue>Продолжить...</installer-install-continue>
+	<installer-install-error-extract>Не удаётся распаковать установочные файлы. Чтобы установить oneye вручную, переименуйте файл «[package]» в «package.tar.gz» и распакуйте его содержимое в текущий каталог.</installer-install-error-extract>
+	<installer-install-error-renaming>Не удаётся переименовать каталог «./eyeOS/». Переименуйте его вручную в «[hash]».</installer-install-error-renaming>
+	<installer-lib-check-md5>Предупреждение: проверьте, не повреждён ли файл «[package]».</installer-lib-check-md5>
+	<installer-lib-output-lang-currentlang>Текущий язык</installer-lib-output-lang-currentlang>
+	<installer-lib-check-permissions>Предупреждение: установите для файла «[file]» полные права доступа (chmod 777).</installer-lib-check-permissions>
+	<installer-lib-output-title>Установка oneye</installer-lib-output-title>
+	<installer-lib-output-utf8>В данной версии PHP отсутствует полная поддержка UTF-8. Следует обновить PHP или установить модуль «mbstring». В противном случае oneye можно будет установить или обновить, но могут возникнуть проблемы в некоторых частях системы, в которых требуется поддержка иностранных языков.</installer-lib-output-utf8>
+	<installer-lib-output-lang-by>автор: </installer-lib-output-lang-by>
+	<installer-install-passwords-notmatch>Пароли не совпадают</installer-install-passwords-notmatch>
+	<installer-lib-output-lang-langs>Языки</installer-lib-output-lang-langs>
+	<installer-lib-output-errors>Во время установки возникли проблемы:</installer-lib-output-errors>
+	<installer-lib-check-php>На веб-сервере используется неподдерживамая версия PHP. Перед установкой oneye обновите PHP до версии 5.0 или более старшей.</installer-lib-check-php>
+	<installer-lib-check-safemode>К сожалению для oneye требуется, чтобы в PHP был выключен безопасный режим (SAFE_MODE = OFF). В текущей конфигурации данный режим включён. Измените файл «php.ini», выключив в нём безопасный режим, или обратитесь за помощью к своему системному администратору.</installer-lib-check-safemode>
+	<installer-install-allow-creation>Разрешить свободную регистрацию</installer-install-allow-creation>
+	<installer-lib-check-notexist>Ошибка: файл «[file]» не существует.</installer-lib-check-notexist>
+	<installer-install-do>Установить oneye!</installer-install-do>
+</translation>

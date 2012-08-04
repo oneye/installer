@@ -1,0 +1,6 @@
+<translation>
+	<installer-install-error-extract>ፋይሎቹ አልተጫኑም። አዮኦኤስን ፋይሎች በጅ ለመጫን ["package'] እንደገና "package.tar.gz" ይብሉትና ፋይሎቹን ባሉበት አቃፊ ውስጥ ይፍትዋቸው </installer-install-error-extract>
+	<installer-install-do>አዮዖኤስን ይጫኑ</installer-install-do>
+	<installer-install-continue>ይቀጥሉ...</installer-install-continue>
+	<installer-install-allow-creation>ተጠቃሚወች አካውንት ይክፈቱ</installer-install-allow-creation>
+</translation>
