@@ -24,12 +24,12 @@ error_reporting(0);
 define('INSTALL_DIR','./installer/');
 define('INSTALL_INDEX','./index.html');
 define('INSTALL_INSTALLER',1);
-define('INSTALL_MD5','182a2b0e104ef2470a62e008989e5a41');
+define('INSTALL_MD5','ff089b864faa80ded6b806ccefc1ba57');
 define('INSTALL_PACKAGE','./package.eyepackage');
 define('INSTALL_SYSTEM',1);
 define('INSTALL_UPDATER',1);
-define('INSTALL_VERSION','1.11.0.1');
-define('ONEYE_VERSION','0.9.0');
+define('INSTALL_VERSION','1.11.1.0preview20130118004252');
+define('ONEYE_VERSION','0.9.1preview');
 
 // Include libraries
 include_once(INSTALL_DIR . 'libraries.eyecode');
