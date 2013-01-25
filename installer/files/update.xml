@@ -12,19 +12,22 @@
 			<add>
 				<DEFAULT_I18N>en</DEFAULT_I18N>
 				<DEFAULT_LANGUAGE>en</DEFAULT_LANGUAGE>
-				<OFFICE_COMMAND>soffice</OFFICE_COMMAND>
-				<OFFICE_SEPARATOR_ARG>'</OFFICE_SEPARATOR_ARG>
-				<OFFICE_USE_DISPLAY>1</OFFICE_USE_DISPLAY>
+				<OFFICE_PYTHON_PATH>python</OFFICE_PYTHON_PATH>
+				<ONEYE_LOG>0</ONEYE_LOG>
 				<PING_INTERVAL>120</PING_INTERVAL>
 				<SESSION_EXPIRE>3600</SESSION_EXPIRE>
 				<USE_COMPRESSED>1</USE_COMPRESSED>
 				<WEB_UPLOAD>1</WEB_UPLOAD>
-				<ONEYE_LOG>0</ONEYE_LOG>
 			</add>
 			<delete>CACHE_VERSION</delete>
 			<delete>EXTERN_CACHE</delete>
 			<delete>EXTERN_CACHE_AUTO</delete>
 			<delete>EXTERN_CACHE_MANUAL</delete>
+			<delete>FORMAT_PARSER</delete>
+			<delete>OFFICE_COMMAND</delete>
+			<delete>OFFICE_SCREEN</delete>
+			<delete>OFFICE_SEPARATOR_ARG</delete>
+			<delete>OFFICE_USE_DISPLAY</delete>
 		</system>
 		<eyex>
 			<update>
@@ -299,6 +302,7 @@
 		<1.10.0.0>apps/share/eyeLogin</1.10.0.0>
 		<1.6.0.0>apps/share/eyeTetravex</1.6.0.0>
 		<1.11.0.0>apps/share/filetypes</1.11.0.0>
+		<1.11.0.1>extras/unoconv</1.11.0.1>
 		<1.5.0.0>groups</1.5.0.0>
 		<1.5.0.0>logs</1.5.0.0>
 		<1.5.0.0>system/conf/eyex.xml</1.5.0.0>
