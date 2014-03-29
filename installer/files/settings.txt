@@ -22,7 +22,7 @@ Copyright © 2005 - 2010 eyeos Team (team@eyeos.org)
 
 //Paths
 define('EYE_ROOT','.');
-define('REAL_EYE_ROOT','eyeOS');
+define('REAL_EYE_ROOT','system');
 define('SYSTEM_DIR','system');
 define('KERNEL_DIR','kernel');
 define('SERVICE_DIR','services');
@@ -56,15 +56,15 @@ define('EYEOS_TRASH_EXT','eyeTrash');
 define('VFS_MODULE','virtual');
 
 //um module to use
-define('UM_MODULE','eyeos');
+define('UM_MODULE','oneye');
 
 //The real god of oneye users, master of masters
 define('REAL_ROOTUSER','root');
 
 //Extras
 define('EYEOS_TMP_DIR','tmp');
-define('EYEOS_VERSION','1.11.1.0preview');
-define('ONEYE_VERSION','0.9.1preview');
+define('EYEOS_VERSION','1.11.5.0preview');
+define('ONEYE_VERSION','0.9.5preview');
 define('XML_COMPAT',1);
 define('XML_PARSER','pure');
 define('ACL_SUPPORT',1);

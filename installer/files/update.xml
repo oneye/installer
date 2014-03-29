@@ -10,6 +10,7 @@
 		</sec>
 		<system>
 			<add>
+				<CONFIG_MODULE>xml</CONFIG_MODULE>
 				<DEFAULT_I18N>en</DEFAULT_I18N>
 				<DEFAULT_LANGUAGE>en</DEFAULT_LANGUAGE>
 				<OFFICE_PYTHON_PATH>python</OFFICE_PYTHON_PATH>
@@ -290,6 +291,8 @@
 		<delete>%system%/lib/eyeString/utils</delete>
 		<delete>%system%/services/log</delete>
 		<delete>./xml-rpc/compat</delete>
+		<!-- oneye 0.9.5 Preview -->
+		<delete>./extras/OpenOffice</delete>
 	</files>
 </eyeInstaller>
 <eyePackage>
@@ -302,7 +305,7 @@
 		<1.10.0.0>apps/share/eyeLogin</1.10.0.0>
 		<1.6.0.0>apps/share/eyeTetravex</1.6.0.0>
 		<1.11.0.0>apps/share/filetypes</1.11.0.0>
-		<1.11.0.1>extras/unoconv</1.11.0.1>
+		<1.11.0.5preview>extras/unoconv</1.11.0.5preview>
 		<1.5.0.0>groups</1.5.0.0>
 		<1.5.0.0>logs</1.5.0.0>
 		<1.5.0.0>system/conf/eyex.xml</1.5.0.0>
@@ -329,9 +332,9 @@
 </eyePackage>
 <eyeUpdater>
 	<settings>
-		<REAL_EYE_ROOT>eyeOS</REAL_EYE_ROOT>
+		<REAL_EYE_ROOT>system</REAL_EYE_ROOT>
 		<VFS_MODULE>virtual</VFS_MODULE>
-		<UM_MODULE>eyeos</UM_MODULE>
+		<UM_MODULE>oneye</UM_MODULE>
 		<REAL_ROOTUSER>root</REAL_ROOTUSER>
 	</settings>
 </eyeUpdater>
