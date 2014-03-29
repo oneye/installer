@@ -23,7 +23,7 @@ if ($_REQUEST['password']) {
 
 include_once('settings.php');
 $xml = xml_xml2array(file_get_contents(path_account(REAL_ROOTUSER)));
-if (in_array($_SESSION['action'],array('remove-installer','reset-system','uninstall')) && $_SESSION['password'] == $xml['eyeUser'][0]['password'][0]) {
+if (in_array($_SESSION['action'],array('remove-installer','compat-check','reset-system','uninstall')) && $_SESSION['password'] == $xml['eyeUser'][0]['password'][0]) {
 	include(INSTALL_DIR . 'modules/system/' . $_SESSION['action'] . '.eyecode');
 } else {
 	system_start($_REQUEST['action'],$_REQUEST['password']);
@@ -53,6 +53,9 @@ function system_start($action,$password) {
 			<option value="remove-installer"';
 			if ($action == 'remove-installer') $content .= ' selected="selected"';
 			$content .= '>' . lang_translate('installer-system-action-removeinstaller','Remove the oneye installer') . '</option>
+			<option value="compat-check"';
+			if ($action == 'compat-check') $content .= ' selected="selected"';
+			$content .= '>' . lang_translate('installer-system-action-compatcheck','Compatibility Check') . '</option>
 			<option value="reset-system"';
 			if ($action == 'reset-system') $content .= ' selected="selected"';
 			$content .= '>' . lang_translate('installer-system-action-resetsystem','Reset system files') . '</option>

@@ -23,47 +23,16 @@ if ($_REQUEST['hostname'] && strlen($_REQUEST['password']) > 2 && $_REQUEST['pas
 }
 
 function install_compat() {
-	$content = '<div style="height: 285px; left: 50px; overflow: auto; position: absolute; top: 100px; width: 625px;">
-<table style="width: 100%;">
-	<tr>
-		<th colspan="2">' . lang_translate('installer-install-required','Required') . '</th>
-		<th>Yours</th>
-	</tr>';
-	$content .= private_install_compat('mbstring.func_overload', '0', 'red');
-	$content .= private_install_compat('safe_mode', '0', 'red', version_compare(PHP_VERSION, '5.4.0', '<'));
-	$content .= private_install_compat('session.use_cookies', '1', 'red');
-	$content .= private_install_compat('zend.ze1_compatibility_mode', '0', 'red', version_compare(PHP_VERSION, '5.3.0', '<'));
-	$content .= '<tr><td colspan="3">&nbsp;</td></tr><tr><th colspan="2">' . lang_translate('installer-install-recommended','Recommended') . '</th><th>Yours</th></tr>';
-	$content .= private_install_compat('allow_url_fopen', '1', 'orange');
-	$content .= private_install_compat('arg_separator.output', '&amp;', 'orange');
-	$content .= private_install_compat('disable_classes', '', 'orange');
-	$content .= private_install_compat('disable_functions', '', 'orange');
-	$content .= private_install_compat('error_reporting', '0', 'orange');
-	$content .= private_install_compat('file_uploads', '1', 'orange');
-	$content .= private_install_compat('magic_quotes_gpc', '0', 'orange', version_compare(PHP_VERSION, '5.4.0', '<'));
-	$content .= private_install_compat('magic_quotes_runtime', '0', 'orange', version_compare(PHP_VERSION, '5.4.0', '<'));
-	$content .= private_install_compat('magic_quotes_sybase', '0', 'orange', version_compare(PHP_VERSION, '5.4.0', '<'));
-	$content .= private_install_compat('register_globals', '0', 'orange', version_compare(PHP_VERSION, '5.4.0', '<'));
-	$content .= '</table>
-	</div>
-<form action="./index.php?continue=1" method="post">
-	<div class="button"><input class="iButton" type="submit" value="' . lang_translate('installer-install-continue','Continue') . '" /></div>
-</form>';
-	output_do($content, 'install', lang_translate('installer-install-compat','Please check your PHP settings before installing oneye.'));
-}
-
-function private_install_compat($varname, $default, $color, $condition = true) {
-	$return = '';
-	if ($condition === true) {
-		$return .= '<tr><td style="width: 1px;">' . htmlspecialchars($varname, ENT_NOQUOTES, 'UTF-8') . '</td><td style="width: 50%;">= ' . htmlspecialchars($default, ENT_NOQUOTES, 'UTF-8') . '</td>';
-		$style = '';
-		$varname = ini_get($varname);
-		if ($varname !== $default) {
-			$style .= ' background-color: ' . $color . ';';
+	$content = lib_compat();
+	
+	if (strpos($content, 'background-color: red;"') === false) {
+		if (strpos($content, 'background-color: orange;"') === false) {
+			return install_start(null, null, null, null);
 		}
-		$return .= '<td style="width: 50%;' . $style . '">' . htmlspecialchars($varname, ENT_NOQUOTES, 'UTF-8') . '</td></tr>';
+		$content .= '<form action="./index.php?continue=1" method="post"><div class="button"><input class="iButton" type="submit" value="' . lang_translate('installer-install-continue','Continue') . '" /></div></form>';
 	}
-	return $return;
+	
+	output_do($content, 'install', lang_translate('installer-install-compat','Please check your PHP settings before installing oneye.'));
 }
 
 function install_start($allow_register,$hostname,$password,$password2) {
