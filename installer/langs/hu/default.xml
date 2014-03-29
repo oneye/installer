@@ -16,7 +16,7 @@
 	<installer-update-title>Kattintson a folytatás gombra az oneye [version] verziójának frissítéséhez.</installer-update-title>
 	<installer-update-do>Frissítse az oneye-t!</installer-update-do>
 	<installer-system-password-error>Nem jó a root-jelszó!</installer-system-password-error>
-	<installer-update-error-renaming>Nem lehetett átnevezni az "./eyeOS/" könyvtárat. Kérem nevezze át kézzel erre: "[hash]", majd írja felül a már meglévő állományokat!</installer-update-error-renaming>
+	<installer-update-error-renaming>Nem lehetett átnevezni az "./system" könyvtárat. Kérem nevezze át kézzel erre: "[hash]", majd írja felül a már meglévő állományokat!</installer-update-error-renaming>
 	<installer-update-continue>Folytatás...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Igen-re[/span] nyomva törlődik az egész oneye-rendszer, minden beállításával együtt.</installer-system-uninstall-yes>
 	<installer-system-yes>Igen</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Jelszó újból</installer-install-password-retype>
 	<installer-install-continue>Folytatás...</installer-install-continue>
 	<installer-install-error-extract>A telepítőállományokat nem lehetett kicsomagolni. Kézi telepítéshez nevezze át a(z) "[package]"-t "package.tar.gz"-vé és ugyanoda csomagolja ki a tartalmát.</installer-install-error-extract>
-	<installer-install-error-renaming>Nem lehetett átnevezni az "./eyeOS/" könyvtárat. Kérem nevezze át kézzel erre: "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Nem lehetett átnevezni az "./system" könyvtárat. Kérem nevezze át kézzel erre: "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Figyelem! Kérem ellenőrizze a(z) "[package]" tartalmát, mert hibás lehet!</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Kiválasztott nyelv</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Figylelem! Kérem adjon teljes jogosultságokat (CHMOD 777) a(z) "[file]" állománynak!</installer-lib-check-permissions>

@@ -16,7 +16,7 @@
 	<installer-update-title>계속 진행하시면 oneye를 [version]으로 업데이트합니다.</installer-update-title>
 	<installer-update-do>oneye 업데이트!</installer-update-do>
 	<installer-system-password-error>Root 비밀번호가 틀립니다.</installer-system-password-error>
-	<installer-update-error-renaming>"./eyeOS/" 폴더의 이름을 변경하지 못했습니다. 해당 폴더를 "[hash]"로 변경하고 모든 파일을 덮어쓰십시오.</installer-update-error-renaming>
+	<installer-update-error-renaming>"./system" 폴더의 이름을 변경하지 못했습니다. 해당 폴더를 "[hash]"로 변경하고 모든 파일을 덮어쓰십시오.</installer-update-error-renaming>
 	<installer-update-continue>계속</installer-update-continue>
 	<installer-system-uninstall-yes>[span]예[/span] 는 oneye를 완전히 제거할 것입니다.</installer-system-uninstall-yes>
 	<installer-system-yes>네</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>비밀번호 재입력</installer-install-password-retype>
 	<installer-install-continue>계속...</installer-install-continue>
 	<installer-install-error-extract>설치 파일의 압축 해제에 실패했습니다. oneye를 직접 설치하려면 "[package]"를 "package.tar.gz"로 이름 변경한 후에 같은 디렉터리에 압축을 해제하십시오.</installer-install-error-extract>
-	<installer-install-error-renaming>"./eyeOS/"디렉터리의 이름 변경에 실패하였습니다. 직접 "[hash]"로 변경해주십시오.</installer-install-error-renaming>
+	<installer-install-error-renaming>"./system"디렉터리의 이름 변경에 실패하였습니다. 직접 "[hash]"로 변경해주십시오.</installer-install-error-renaming>
 	<installer-lib-check-md5>경고: "[package]"파일이 수정되었는지 확인하여주십시오.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>언어 선택</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>경고: "[file]"에게 모든 권한(CHMOD 777)을 부여하여주십시오.</installer-lib-check-permissions>

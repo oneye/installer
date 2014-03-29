@@ -16,7 +16,7 @@
 	<installer-update-title>Si us plau, continua actualitzant el teu oneye a la versió [version].</installer-update-title>
 	<installer-update-do>Actualitza l'oneye</installer-update-do>
 	<installer-system-password-error>Contrasenya de root incorrecta</installer-system-password-error>
-	<installer-update-error-renaming>No s'ha pogut reanomenar el directori "./eyeOS/". Si us plau, reanomena'l manualment a "[hash]" i sobreescriu tots els arxius nous.</installer-update-error-renaming>
+	<installer-update-error-renaming>No s'ha pogut reanomenar el directori "./system". Si us plau, reanomena'l manualment a "[hash]" i sobreescriu tots els arxius nous.</installer-update-error-renaming>
 	<installer-update-continue>Continua</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Sí[/span] eliminarà l'oneye completament</installer-system-uninstall-yes>
 	<installer-system-yes>Sí</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Reescriu la contrasenya</installer-install-password-retype>
 	<installer-install-continue>Continua</installer-install-continue>
 	<installer-install-error-extract>Els arxius d'instal·lació no s'han pogut extreure. Per instal·lar l'oneye manualment, reanomena "[package]" a "package.tar.gz i extreu els continguts a la mateixa carpeta.</installer-install-error-extract>
-	<installer-install-error-renaming>No s'ha pogut reanomenar el directori "./eyeOS/". Si us plau, canvia-li el nom manualment a "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>No s'ha pogut reanomenar el directori "./system". Si us plau, canvia-li el nom manualment a "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Advertència: comprova "[package]" ja que sembla que està corromput</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Idimoa actual</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Advertència: dóna permisos totals (CHMOD 777) a "[file]".</installer-lib-check-permissions>

@@ -16,7 +16,7 @@
 	<installer-update-title>Молимо наставите да упдејтујете вашу oneye инсталацију у верзију [version].</installer-update-title>
 	<installer-update-do>Упдејтуј oneye!</installer-update-do>
 	<installer-system-password-error>Погрешна root лозинка!</installer-system-password-error>
-	<installer-update-error-renaming>Не могу да променим назив директоријума "./eyeOS/". Молимо, промените назив ручно у "[hash]" и пребаците преко свих постојећих фајлова.</installer-update-error-renaming>
+	<installer-update-error-renaming>Не могу да променим назив директоријума "./system". Молимо, промените назив ручно у "[hash]" и пребаците преко свих постојећих фајлова.</installer-update-error-renaming>
 	<installer-update-continue>Настави...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Да[/span] ће обрисати oneye у потпуности!</installer-system-uninstall-yes>
 	<installer-system-yes>Да</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Поновите лозинку</installer-install-password-retype>
 	<installer-install-continue>Настави...</installer-install-continue>
 	<installer-install-error-extract>Инсталациони фајлови не могу бити екстрактовани. Да инсталирате oneye ручно, промените назив "[package]" у "package.tsr.gz" и екстрактујте фајлове у исти директоријум.</installer-install-error-extract>
-	<installer-install-error-renaming>Не могу да променим назив директоријума "./eyeOS/". Молимо, промените назив ручно у "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Не могу да променим назив директоријума "./system". Молимо, промените назив ручно у "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Упозорење: Молимо, проверите "[package]" пошто се чини да је оштећена.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Тренутни језик</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Упозорење: Молимо, ставите пун приступ (CHMOD 777) ка фајлу "[file]".</installer-lib-check-permissions>

@@ -16,7 +16,7 @@
 	<installer-update-title>Fortsett for å oppdatere installasjonen til versjon [version].</installer-update-title>
 	<installer-update-do>Oppdater oneye!</installer-update-do>
 	<installer-system-password-error>Ugyldig rotpassord!</installer-system-password-error>
-	<installer-update-error-renaming>Kunne ikke endre navn på mappen "./eyeOS/". Du må endre navnet manuelt til "[hash]" og overskrive alle eksisterende filer.</installer-update-error-renaming>
+	<installer-update-error-renaming>Kunne ikke endre navn på mappen "./system". Du må endre navnet manuelt til "[hash]" og overskrive alle eksisterende filer.</installer-update-error-renaming>
 	<installer-update-continue>Fortsett...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Ja[/span] vil slette oneye fullstendig!</installer-system-uninstall-yes>
 	<installer-system-yes>Ja</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Gjenta passord</installer-install-password-retype>
 	<installer-install-continue>Fortsett...</installer-install-continue>
 	<installer-install-error-extract>Klarte ikke å pakke ut installasjonsfilene. For å installere oneye manuelt kan du endre navnet "[package]" til "package.tar.gz" og pakke ut innholdet i den samme mappen.</installer-install-error-extract>
-	<installer-install-error-renaming>Klarte ikke å endre navnet på mappen "./eyeOS/". Du må endre navnet manuelt til "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Klarte ikke å endre navnet på mappen "./system". Du må endre navnet manuelt til "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Advarsel: Det ser ut til at filen "[package]" er ødelagt. Du må kontrollere filen.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Gjeldende språk</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Advarsel: Du må gi fulle rettigheter (CHMOD 777) til "[file]".</installer-lib-check-permissions>

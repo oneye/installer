@@ -20,7 +20,7 @@
 	<installer-install-required>Requis</installer-install-required>
 	<installer-system-password-error>Mot de passe root incorrect!</installer-system-password-error>
 	<installer-update-error-under15>Cet outil de mise à jour est réservé à eyeos version 1.5 ou plus. Vous utiliser en ce moment eyeos [version1]. Veuillez mettre à jour en version eyeos 1.5 avant d'utiliser la mise à jour vers oneye [version2].</installer-update-error-under15>
-	<installer-update-error-renaming>Impossible de renommer le répertoire "./eyeOS/". Veuillez le renommer manuellement en "[hash]" et remplacer tous les fichiers existant.</installer-update-error-renaming>
+	<installer-update-error-renaming>Impossible de renommer le répertoire "./system". Veuillez le renommer manuellement en "[hash]" et remplacer tous les fichiers existant.</installer-update-error-renaming>
 	<installer-system-yes>Oui</installer-system-yes>
 	<installer-system-uninstall-yes>[span]Oui[/span] désinstallera complètement oneye!</installer-system-uninstall-yes>
 	<installer-update-continue>Continuer...</installer-update-continue>
@@ -37,7 +37,7 @@
 	<installer-install-password-root>Mot de passe root</installer-install-password-root>
 	<installer-install-error-extract>Les fichiers d'installation ne peuvent pas être décompressés. Pour installer oneye manuellement, renommez "[package]" en "package.tar.gz" et extrayez les contenus dans le même répertoire.</installer-install-error-extract>
 	<installer-install-do>Installer oneye!</installer-install-do>
-	<installer-install-error-renaming>Impossible de renommer le répertoire "./eyeOS/". Veuillez le renommer manuellement en "[hash]"</installer-install-error-renaming>
+	<installer-install-error-renaming>Impossible de renommer le répertoire "./system". Veuillez le renommer manuellement en "[hash]"</installer-install-error-renaming>
 	<installer-lib-check-gzip>Votre serveur ne semble pas pouvoir utiliser gzip. Pour installer oneye manuellement, renommer "[package]" en "package.tar.gz" et extraire les contenus dans le même répertoire.</installer-lib-check-gzip>
 	<installer-install-password-retype>Resaisir le mot de passe</installer-install-password-retype>
 	<installer-lib-check-md5>Attention: veuillez vérifier "[package]" car le fichier semble corrompu.</installer-lib-check-md5>

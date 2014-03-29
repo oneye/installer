@@ -16,7 +16,7 @@
 	<installer-update-title>Vær venlig at fortsætte med at opdatere din oneye installation til version [version].</installer-update-title>
 	<installer-update-do>Opdatér oneye!</installer-update-do>
 	<installer-system-password-error>Forkert root adgangskode!</installer-system-password-error>
-	<installer-update-error-renaming>Kunne ikke omdøbe mappen "./eyeOS/". Vær venlig at omdøbe den manuelt til "[hash]" og overskriv alle eksisterende filer.</installer-update-error-renaming>
+	<installer-update-error-renaming>Kunne ikke omdøbe mappen "./system". Vær venlig at omdøbe den manuelt til "[hash]" og overskriv alle eksisterende filer.</installer-update-error-renaming>
 	<installer-update-continue>Fortsæt...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Ja[/span] vil fjerne oneye fuldstændig!</installer-system-uninstall-yes>
 	<installer-system-yes>Ja</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Indtast adgangskoden igen</installer-install-password-retype>
 	<installer-install-continue>Fortsæt...</installer-install-continue>
 	<installer-install-error-extract>Installationsfilerne kunne ikke udpakkes. For at installere oneye manuelt skal du omdøbe "[pakckage]" til "package.tar.gz" og udpakke indholdet til den samme mappe.</installer-install-error-extract>
-	<installer-install-error-renaming>Kunne ikke omdøbe mappen "./eyeOS/". Vær venlig at omdøbe den til "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Kunne ikke omdøbe mappen "./system". Vær venlig at omdøbe den til "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Advarsel: Vær venlig at tjekke "[package]" siden den ser ud til at være ødelagt.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Nuværende sprog</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Advarsel: Vær venlig at give alle rettigheder (CHMOD 777) til "[file]".</installer-lib-check-permissions>

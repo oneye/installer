@@ -15,7 +15,7 @@
 	<installer-update-title>请继续更新您的 oneye 安装到 [version] 版本。</installer-update-title>
 	<installer-update-do>更新 oneye！</installer-update-do>
 	<installer-system-password-error>root 用户密码错误！</installer-system-password-error>
-	<installer-update-error-renaming>无法重命名“./eyeOS/”目录。请手工将其重命名为“[hash]”并覆盖所有已存在文件。</installer-update-error-renaming>
+	<installer-update-error-renaming>无法重命名“./system”目录。请手工将其重命名为“[hash]”并覆盖所有已存在文件。</installer-update-error-renaming>
 	<installer-update-continue>继续…</installer-update-continue>
 	<installer-system-uninstall-yes>[span]是[/span]将会完整删除 oneye 。</installer-system-uninstall-yes>
 	<installer-system-yes>是</installer-system-yes>
@@ -30,7 +30,7 @@
 	<installer-install-passwords-notmatch>输入的 root 密码不匹配！</installer-install-passwords-notmatch>
 	<installer-install-password-retype>重新输入密码</installer-install-password-retype>
 	<installer-install-error-extract>无法解压缩安装文件。手工安装 eyseOS，请将“[package]”重命名为“package.tar.gz”并将其解压到相同的目录中。</installer-install-error-extract>
-	<installer-install-error-renaming>无法重命名“./eyeOS/”目录。请手工将其重命名为“[hash]”。</installer-install-error-renaming>
+	<installer-install-error-renaming>无法重命名“./system”目录。请手工将其重命名为“[hash]”。</installer-install-error-renaming>
 	<installer-lib-check-gzip>您的服务器似乎没有 gzip 支持。要手工安装 oneye，请将“[package]”重命名为“package.tar.gz”并将其解压到相同目录下。</installer-lib-check-gzip>
 	<installer-install-continue>继续…</installer-install-continue>
 	<installer-lib-output-lang-by>由</installer-lib-output-lang-by>

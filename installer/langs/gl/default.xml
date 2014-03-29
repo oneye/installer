@@ -15,7 +15,7 @@
 	<installer-update-title>Por favor, continua actualizando a túa instalación oneye á versión [version].</installer-update-title>
 	<installer-update-do>¡Actualizar oneye!</installer-update-do>
 	<installer-system-password-error>¡Contrasinal de root incorrecta!</installer-system-password-error>
-	<installer-update-error-renaming>Non poido renomear a carpeta "./eyeOS/". Por favor, renomea manualmente como "[hash]" e sobreescribe os arquivos existentes.</installer-update-error-renaming>
+	<installer-update-error-renaming>Non poido renomear a carpeta "./system". Por favor, renomea manualmente como "[hash]" e sobreescribe os arquivos existentes.</installer-update-error-renaming>
 	<installer-update-continue>Continuar...</installer-update-continue>
 	<installer-system-uninstall-yes>[spam]Si[/spam] eliminará oneye completamente.</installer-system-uninstall-yes>
 	<installer-system-yes>Si</installer-system-yes>
@@ -30,7 +30,7 @@
 	<installer-install-passwords-notmatch>¡As contrasinais de root non coinciden!</installer-install-passwords-notmatch>
 	<installer-install-password-retype>Repita a contrasinal</installer-install-password-retype>
 	<installer-install-error-extract>Os arquivos de instalación non foron extraídas. Para instalar oneye manualmente, renomee "[package]" como "package.tar.gz" e extrae o contido na mesma carpeta.</installer-install-error-extract>
-	<installer-install-error-renaming>Non se pode renomear a carpeta "./eyeOS/". Por favor, renomeao manualmente a "[hash]"</installer-install-error-renaming>
+	<installer-install-error-renaming>Non se pode renomear a carpeta "./system". Por favor, renomeao manualmente a "[hash]"</installer-install-error-renaming>
 	<installer-lib-check-gzip>O teu servidor semella non ter soporte gzip. Para instalar oneye manualmente renomea "[package]" como "package.tar.gz" e exrae o contido na mesma carpeta.</installer-lib-check-gzip>
 	<installer-install-continue>Continuar</installer-install-continue>
 	<installer-lib-output-lang-by>por</installer-lib-output-lang-by>

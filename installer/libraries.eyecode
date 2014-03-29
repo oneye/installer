@@ -31,7 +31,7 @@ function check_init() {
 		include_once('./settings.php');
 		$checked = check_versions(EYEOS_VERSION,INSTALL_VERSION);
 		if (!$checked) {
-			if (file_exists('./eyeOS/')) {
+			if (file_exists('./system')) {
 				define('TYPE_UPDATE',2);
 			} else {
 				define('TYPE_SYSTEM',1);
@@ -39,7 +39,7 @@ function check_init() {
 			define('TYPE_UPDATE',0);
 		} elseif ($checked == 2) {
 			define('TYPE_SYSTEM',0);
-			if (file_exists('./eyeOS/')) {
+			if (file_exists('./system')) {
 				define('TYPE_UPDATE',2);
 			} else {
 				define('TYPE_UPDATE',1);
@@ -50,7 +50,7 @@ function check_init() {
 	} else {
 		define('TYPE_UPDATE',0);
 		define('TYPE_SYSTEM',0);
-		if (file_exists('./eyeOS/')) {
+		if (file_exists('./system')) {
 			define('TYPE_INSTALL',2);
 		} else {
 			define('TYPE_INSTALL',1);
@@ -66,7 +66,7 @@ function check_init() {
 		$array[] = './';
 	}
 	if (TYPE_INSTALL == 2 || TYPE_UPDATE == 2 || TYPE_SYSTEM == 2) {
-		$array[] = './eyeOS/';
+		$array[] = './system';
 	}
 	$array[] = INSTALL_DIR;
 	if (TYPE_INSTALL === 1 || TYPE_UPDATE === 1 || TYPE_SYSTEM === 1) {

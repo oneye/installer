@@ -16,7 +16,7 @@
 	<installer-update-title>Per favore continua ad aggiornare la tua installazione oneye alla versione [version].</installer-update-title>
 	<installer-update-do>Aggiorna oneye!</installer-update-do>
 	<installer-system-password-error>Root password non corretta!</installer-system-password-error>
-	<installer-update-error-renaming>Non puoi rinominare la directory "./eyeOS/". Per favore, rinominala manualmente in "[hash]" e sovrascrivi tutti i file esistenti.</installer-update-error-renaming>
+	<installer-update-error-renaming>Non puoi rinominare la directory "./system". Per favore, rinominala manualmente in "[hash]" e sovrascrivi tutti i file esistenti.</installer-update-error-renaming>
 	<installer-update-continue>Continua...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Yes[/span] verrà rimosso oneye completamente!</installer-system-uninstall-yes>
 	<installer-system-yes>Si</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Ridigita la password</installer-install-password-retype>
 	<installer-install-continue>Continua...</installer-install-continue>
 	<installer-install-error-extract>I file di installazione non possono essere estratti. Per installare oneye manualmente, rinomina "[package]" in "package.tar.gz" ed estrai il contenuto all'interno della stessa directory.</installer-install-error-extract>
-	<installer-install-error-renaming>Non puoi rinominare la directory "./eyeOS/". Per favore, rinominala manualmente in "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Non puoi rinominare la directory "./system". Per favore, rinominala manualmente in "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Attenzione: Per favore, controlla "[package]" poichè sembra essere corrotto.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Linguaggio corrente</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Attenzione: Per favore, dà permessi completi (CHMOD 777) a "[file]".</installer-lib-check-permissions>

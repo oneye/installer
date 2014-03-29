@@ -101,8 +101,8 @@ function install_do($install,$allow_register,$hostname,$password) {
 			$hash = 'system_' . substr(md5(uniqid(rand())),0,10);
 		}
 		// Rename dir
-		if (!path_move('./eyeOS/','./' . $hash . '/')) {
-			output_errors(array(lang_translate('installer-install-error-renaming','Could not rename the directory "./eyeOS/". Please, rename it manually to "[hash]".',array('[hash]' => $hash))),array('./index.php?install=2&amp;allow_register=' . $allow_register . '&amp;hostname=' . $hostname . '&amp;password=' . $password . '&amp;password2=' . $password . '&amp;hash=' . $hash,lang_translate('installer-install-continue','Continue...')),0);
+		if (!path_move('./system','./' . $hash . '/')) {
+			output_errors(array(lang_translate('installer-install-error-renaming','Could not rename the directory "./system". Please, rename it manually to "[hash]".',array('[hash]' => $hash))),array('./index.php?install=2&amp;allow_register=' . $allow_register . '&amp;hostname=' . $hostname . '&amp;password=' . $password . '&amp;password2=' . $password . '&amp;hash=' . $hash,lang_translate('installer-install-continue','Continue...')),0);
 		}
 	}
 	
@@ -137,7 +137,7 @@ function install_do($install,$allow_register,$hostname,$password) {
 	copy(INSTALL_DIR . 'files/index.txt','./index.php');
 	// settings.php
 	$settingsphp = file_get_contents(INSTALL_DIR . 'files/settings.txt');
-	$settingsphp = str_replace("define('REAL_EYE_ROOT','eyeOS');","define('REAL_EYE_ROOT','" . $hash . "');",$settingsphp);
+	$settingsphp = str_replace("define('REAL_EYE_ROOT','system');","define('REAL_EYE_ROOT','" . $hash . "');",$settingsphp);
 	file_put_contents('./settings.php',$settingsphp);
 	
 	// Remove the installer

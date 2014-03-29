@@ -13,7 +13,7 @@
 	<installer-system-action-resetsystem>সিসটেম ফাইলগুলো রিসেট করুন</installer-system-action-resetsystem>
 	<installer-update-error-extract>আপডেট ফাইলটি এক্সট্রাক্ট করা সম্ভব হচ্ছে না। আই ও.এস. ম্যানুয়ালি আপডেট করার জন্য, "[package]" ফাইলটির নাম "[package.tar.gz]" নামে পরিবর্তন করুন এবং একই ফোল্ডারে এর কন্টেন্টগুলো এক্সট্রাক্ট করুন।</installer-update-error-extract>
 	<installer-system-uninstall-no>[span]না[/span], আপনাকে সিসটেম পেজ-এ ফেরত নেওয়া হবে।</installer-system-uninstall-no>
-	<installer-update-error-renaming>"./eyeOS/" ডাইরেক্টরীটির নাম পরিবর্তন করা যাচ্ছে না। অনুগ্রহপূর্বক, ফোল্ডারটির নাম "[hash]"-এ পরিবর্তন করুন।</installer-update-error-renaming>
+	<installer-update-error-renaming>"./system/" ডাইরেক্টরীটির নাম পরিবর্তন করা যাচ্ছে না। অনুগ্রহপূর্বক, ফোল্ডারটির নাম "[hash]"-এ পরিবর্তন করুন।</installer-update-error-renaming>
 	<installer-update-do>আই ও.এস. আপডেট!</installer-update-do>
 	<installer-update-error-under15>এই আপডেটারটি শুধুমাত্র আই ও.এস. ভার্সন ১.৫ বা তার পরবর্তী ভার্সনগুলোর জন্য। আপনি আই ও.এস. ভার্সন ১ ব্যবহার করছেন। দয়া করে, আপনার বর্তমান আই ও.এস.-টি ভার্সন ২ তে আপডেট করার আগে ভার্সন ১.৫-এ আপডেট করে নিন।</installer-update-error-under15>
 	<installer-update-title>দয়া করে, আপনার আই ও.এস. টিকে ভার্সন [version] -এ আপডেট করার জন্য আই ও.এস. এর ইন্সটলেশনটি চালিয়ে যান।</installer-update-title>
@@ -33,7 +33,7 @@
 	<installer-lib-check-md5>সতর্কবাণী: দয়া করে, "[package]" ফাইলটি চেক করুন, ফাইলটি সম্ভবত করাপ্টেড হয়ে গেছে।</installer-lib-check-md5>
 	<installer-install-systemname-error>আপনি অবশ্যই একটি সিস্টেমর নাম উল্লেখ করবেন!</installer-install-systemname-error>
 	<installer-install-password-root>রুট পাসওয়ার্ড</installer-install-password-root>
-	<installer-install-error-renaming>"./eyeOS/" ডাইরেক্টরীটির নাম পরিবর্তন করা যাচ্ছে না। অনুগ্রহপূর্বক, ফোল্ডারটির নাম "[hash]"-এ পরিবর্তন করুন।</installer-install-error-renaming>
+	<installer-install-error-renaming>"./system/" ডাইরেক্টরীটির নাম পরিবর্তন করা যাচ্ছে না। অনুগ্রহপূর্বক, ফোল্ডারটির নাম "[hash]"-এ পরিবর্তন করুন।</installer-install-error-renaming>
 	<installer-install-continue>চালিয়ে যান (কন্টিনিউ) ...</installer-install-continue>
 	<installer-install-password-retype>পাসওয়ার্ডটি পুনরায় টাইপ করুন</installer-install-password-retype>
 	<installer-lib-check-gzip>আপনার সার্ভারটি মনে হয়না জি.জিপ (gzip) সাপোর্ট করে। ম্যানুয়ালী আই ও.এস. ইন্সটল করার জন্য, “[package]” নামক ফাইলটি “[package.tar.gz]” নামে নামকরণ করুন এবং একই ফোল্ডারে এটিকে এক্সট্রাক্ট করুন।</installer-lib-check-gzip>

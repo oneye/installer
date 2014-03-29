@@ -16,7 +16,7 @@
 	<installer-update-title>واصل تحديث تنصيبة oneye إلى الإصدارة [version].</installer-update-title>
 	<installer-update-do>حدِّث oneye</installer-update-do>
 	<installer-system-password-error>كلمة سرِّ المدير غير صحيحة!</installer-system-password-error>
-	<installer-update-error-renaming>تعذَّرت تسمية الدليل "./eyeOS/". غيَّر اسمه يدويا إلى "[hash]" و اكتب فوق كل الملفات الموجودة.</installer-update-error-renaming>
+	<installer-update-error-renaming>تعذَّرت تسمية الدليل "./system/". غيَّر اسمه يدويا إلى "[hash]" و اكتب فوق كل الملفات الموجودة.</installer-update-error-renaming>
 	<installer-update-continue>واصِل...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]نعم[/span] ستزيل oneye تماما!</installer-system-uninstall-yes>
 	<installer-system-yes>نعم</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>أعد إدخال كلمة السِّر</installer-install-password-retype>
 	<installer-install-continue>واصل</installer-install-continue>
 	<installer-install-error-extract>تعذَّر استخراج الملفات. لتنصيب oneye يدويا غيِّر اسم "[package]" إلى "package.tar.gz" ثم استخرج محتوياته في الدليل ذاته.</installer-install-error-extract>
-	<installer-install-error-renaming>تعذَّرت تسمية الدليل "./eyeOS/". غيِّر اسمه يدويا إلى "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>تعذَّرت تسمية الدليل "./system/". غيِّر اسمه يدويا إلى "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>تحذير: افحص "[package]" لأنها تبدو معطوبة.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>اللغة الحالية</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>تحذير: خصص الصلاحيات الكلية (chmod 777) للملف "[file]".</installer-lib-check-permissions>

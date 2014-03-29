@@ -10,7 +10,7 @@
 	<installer-system-message-translations>ترجمه ها را می توانید از [a link] دانلود کنید.</installer-system-message-translations>
 	<installer-system-uninstall-no>[span]خیر[/span] به صفحه سیستم باز میگردید</installer-system-uninstall-no>
 	<installer-update-error-extract>فایل های بروز رسانی امکان خارج شدن از حالت فشرده را ندارند. جهت بروز رسانی  "[package]" را به "package.tar.gz" تغییر نام دهید و تمام محتویات را داخل دایرکتوری همسان از حالت فشرده خارج کنید.</installer-update-error-extract>
-	<installer-update-error-renaming>امکان تغییر نام دایرکتوری "./eyeOS/" وجود ندارد. لطفاً آن را بصورت دستی به "[hash]" تغییر نام دهید و بر روی تمام فایل های مجود اعمال کنید.</installer-update-error-renaming>
+	<installer-update-error-renaming>امکان تغییر نام دایرکتوری "./system" وجود ندارد. لطفاً آن را بصورت دستی به "[hash]" تغییر نام دهید و بر روی تمام فایل های مجود اعمال کنید.</installer-update-error-renaming>
 	<installer-update-error-under15>نرم افزار بروز رسانی برای سیستم عامل نسخه 1.5 و یا بالاتر تهییه شده است. شما از سیتم عامل eyeos  نسخه [version1] استفاده میکنید.لطفا به eyeos 1.5 بروز شوید قبل از بروزرسانی به نسخه oneye [version2]</installer-update-error-under15>
 	<installer-update-title>لطفاً به بروزرسانی نصب سیستم عامل به نسخه [version] ادامه دهید.</installer-update-title>
 	<installer-system-password>کلمه عبور ریشه</installer-system-password>
@@ -28,7 +28,7 @@
 	<installer-lib-check-md5>اخطار: لطفاً "[package]" را بررسی کنید، به نظر می رسد با مشکل مواجه شده.</installer-lib-check-md5>
 	<installer-install-passwords-characters>کلمه عبور ریشه باید بیشتر از سه حرف باشد!</installer-install-passwords-characters>
 	<installer-install-continue>ادامه...</installer-install-continue>
-	<installer-install-error-renaming>امکان تغییر نام دایرکتوری "./eyeOS/"  وجود ندارد. لطفاً بصورت دستی به "[hash]" تغییر نام دهید.</installer-install-error-renaming>
+	<installer-install-error-renaming>امکان تغییر نام دایرکتوری "./system"  وجود ندارد. لطفاً بصورت دستی به "[hash]" تغییر نام دهید.</installer-install-error-renaming>
 	<installer-install-password-retype>کلمه عبور را مجدداً وارد کنید</installer-install-password-retype>
 	<installer-lib-check-notexist>خطا: "[file]" موجود نمی باشد.</installer-lib-check-notexist>
 	<installer-lib-check-permissions>اخطار: لطفاً، به "[file]" مجوز دسترسی کامل بدهید (CHMOD 777)</installer-lib-check-permissions>

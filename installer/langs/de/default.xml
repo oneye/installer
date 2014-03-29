@@ -4,7 +4,7 @@
 	<installer-install-error-extract>Die Installationsdateien konnten nicht entpackt werden. Um oneye zu installieren müssen Sie "[package]" in "package.tar.gz" umbennen und die Dateien des Paketes in den oneye-Ordner entpacken.</installer-install-error-extract>
 	<installer-install-systemname-error>Sie müssen einen Systemnamen angeben!</installer-install-systemname-error>
 	<installer-install-systemname>Systemname</installer-install-systemname>
-	<installer-install-error-renaming>Der Ordner "./eyeOS/" konnte nicht umbenannt werden. Bitte bennen Sie ihn manuell in "[hash]" um.</installer-install-error-renaming>
+	<installer-install-error-renaming>Der Ordner "./system" konnte nicht umbenannt werden. Bitte bennen Sie ihn manuell in "[hash]" um.</installer-install-error-renaming>
 	<installer-install-password-retype>Root-Passwort (erneut)</installer-install-password-retype>
 	<installer-install-password-root>Root-Passwort</installer-install-password-root>
 	<installer-install-passwords-characters>Das Passwort muss länger als dreich Zeichen sein!</installer-install-passwords-characters>
@@ -50,7 +50,7 @@
 	<installer-update-continue>Weiter...</installer-update-continue>
 	<installer-update-do>oneye aktualisieren!</installer-update-do>
 	<installer-update-error-extract>Die Updatedateien konnten nicht entpackt werden. Um oneye zu aktualisieren müssen Sie "[package]" in "package.tar.gz" umbennen und die Dateien des Paketes in den oneye-Ordner entpacken.</installer-update-error-extract>
-	<installer-update-error-renaming>Der Ordner "./eyeOS/" konnte nicht umbenannt werden. Bitte bennen Sie ihn manuell in "[hash]" um ud übrschreiben Sie bereits existierende Dateien.</installer-update-error-renaming>
+	<installer-update-error-renaming>Der Ordner "./system" konnte nicht umbenannt werden. Bitte bennen Sie ihn manuell in "[hash]" um ud übrschreiben Sie bereits existierende Dateien.</installer-update-error-renaming>
 	<installer-update-error-under15>Dieser Updater ist nur für eyeos 1.5 und höher. Sie verwenden die Version [version1]. Bitte aktualisieren Sie auf eyeos 1.5 bevor Sie auf oneye [version2] aktualisieren.</installer-update-error-under15>
 	<installer-update-title>Fahren Sie fort um Ihr oneye-System auf die Version [version] zu aktualisieren.</installer-update-title>
 	<installer-system-message-remove>Bitte löschen Sie den Installer aus Gründen der Sicherheit!</installer-system-message-remove>

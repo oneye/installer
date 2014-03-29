@@ -16,7 +16,7 @@
 	<installer-update-title>Обновление установленной версии oneye до версии [version]</installer-update-title>
 	<installer-update-do>Обновить oneye!</installer-update-do>
 	<installer-system-password-error>Неверный пароль!</installer-system-password-error>
-	<installer-update-error-renaming>Не удаётся переименовать каталог «./eyeOS/». Переименуйте его вручную в «[hash]» и перезапишите существующие файлы.</installer-update-error-renaming>
+	<installer-update-error-renaming>Не удаётся переименовать каталог «./system». Переименуйте его вручную в «[hash]» и перезапишите существующие файлы.</installer-update-error-renaming>
 	<installer-update-continue>Продолжить...</installer-update-continue>
 	<installer-system-uninstall-yes>Если выбрать [span]Да[/span], система oneye будет полностью удалена!</installer-system-uninstall-yes>
 	<installer-system-yes>Да</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Пароль (ещё раз)</installer-install-password-retype>
 	<installer-install-continue>Продолжить...</installer-install-continue>
 	<installer-install-error-extract>Не удаётся распаковать установочные файлы. Чтобы установить oneye вручную, переименуйте файл «[package]» в «package.tar.gz» и распакуйте его содержимое в текущий каталог.</installer-install-error-extract>
-	<installer-install-error-renaming>Не удаётся переименовать каталог «./eyeOS/». Переименуйте его вручную в «[hash]».</installer-install-error-renaming>
+	<installer-install-error-renaming>Не удаётся переименовать каталог «./system». Переименуйте его вручную в «[hash]».</installer-install-error-renaming>
 	<installer-lib-check-md5>Предупреждение: проверьте, не повреждён ли файл «[package]».</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Текущий язык</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Предупреждение: установите для файла «[file]» полные права доступа (chmod 777).</installer-lib-check-permissions>

@@ -13,7 +13,7 @@
 	<installer-system-action-resetsystem>Reiniciar sistema de arquivos</installer-system-action-resetsystem>
 	<installer-update-error-extract>Os arquivos de atualização não pode ser extraído. Para atualizar manualmente oneye, mudar o nome "[package]" para "package.tar.gz" e extrair o conteúdo para o mesmo diretório.</installer-update-error-extract>
 	<installer-system-uninstall-no>[span]Não[/ span] irá trazer você de volta para a página do sistema</installer-system-uninstall-no>
-	<installer-update-error-renaming>Não foi possível mudar o nome do diretório "./eyeOS/". Por favor, renomeá-lo manualmente para "[hash]" e substituir todos os arquivos existentes.</installer-update-error-renaming>
+	<installer-update-error-renaming>Não foi possível mudar o nome do diretório "./system". Por favor, renomeá-lo manualmente para "[hash]" e substituir todos os arquivos existentes.</installer-update-error-renaming>
 	<installer-update-do>Atualizar oneye!</installer-update-do>
 	<installer-update-error-under15>Este é apenas para atualizador eyeos versão 1.5 e superiores. Você está usando eyeos [version1]. Atualize a eyeos 1,5 antes de atualizar para a oneye [version2].</installer-update-error-under15>
 	<installer-update-title>Continue para atualizar o oneye para versão [version]</installer-update-title>
@@ -33,7 +33,7 @@
 	<installer-lib-check-md5>Aviso: O arquivo "[package]" parece estar corrompido.</installer-lib-check-md5>
 	<installer-install-systemname-error>Voce tem que especificar o nome do sistema!</installer-install-systemname-error>
 	<installer-install-password-root>Senha de "root"</installer-install-password-root>
-	<installer-install-error-renaming>Não foi possível renomear o diretório "./eyeOS/". Por favor, renomeie ele para "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Não foi possível renomear o diretório "./system". Por favor, renomeie ele para "[hash]".</installer-install-error-renaming>
 	<installer-install-continue>Continuar...</installer-install-continue>
 	<installer-install-password-retype>Redigite a senha</installer-install-password-retype>
 	<installer-lib-check-gzip>Não foi possível detectar o suporte gzip no seu servidor. Para instalar o oneye manualmente renomeie "[package]" para "package.tar.gz" e extraia o conteúdo dele no mesmo diretório.</installer-lib-check-gzip>

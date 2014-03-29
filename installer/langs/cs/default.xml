@@ -16,7 +16,7 @@
 	<installer-update-title>Prosím pokračuj k aktualizaci tvého oneye na verzi [version].</installer-update-title>
 	<installer-update-do>Aktualizuj oneye!</installer-update-do>
 	<installer-system-password-error>Nesprávné heslo root-a!</installer-system-password-error>
-	<installer-update-error-renaming>Nepodařilo se přejmenovat složku "./eyeOS/". Prosím, přejmenuj ji ručně na "[hash]" a přepiš všechny existující soubory.</installer-update-error-renaming>
+	<installer-update-error-renaming>Nepodařilo se přejmenovat složku "./system". Prosím, přejmenuj ji ručně na "[hash]" a přepiš všechny existující soubory.</installer-update-error-renaming>
 	<installer-update-continue>Pokračovat...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Ano[/span] odstraní oneye!</installer-system-uninstall-yes>
 	<installer-system-yes>Ano</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Potvrzení hesla</installer-install-password-retype>
 	<installer-install-continue>Pokračovat...</installer-install-continue>
 	<installer-install-error-extract>Instalační soubory se nepodařilo rozbalit. Když chceš nainstalovat oneye ručně, přejmenuj "[package]" na "package.tar.gz" a rozbal obsah archivu do té samé složky.</installer-install-error-extract>
-	<installer-install-error-renaming>Nepodařilo se přejmenovat složku "./eyeOS/". Prosím, přejmenuj ji ručně na "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Nepodařilo se přejmenovat složku "./system". Prosím, přejmenuj ji ručně na "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Varování: Prosím zkontroluj "[package]", protože archiv může být poškozen.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Současný jazyk</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Varování: Prosím dej všechna práva (CHMOD 777) souboru "[file]".</installer-lib-check-permissions>

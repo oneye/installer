@@ -16,7 +16,7 @@
 	<installer-update-title>oneye [version] güncelleştirmesi için lütfen devam ediniz.</installer-update-title>
 	<installer-update-do>oneye'u Güncelle!</installer-update-do>
 	<installer-system-password-error>Yanlış şifre!</installer-system-password-error>
-	<installer-update-error-renaming>"./eyeOS/." klasörü yeniden adlandırılamadı. Lütfen siz yeniden adlandırınız,"[hash]"</installer-update-error-renaming>
+	<installer-update-error-renaming>"./system." klasörü yeniden adlandırılamadı. Lütfen siz yeniden adlandırınız,"[hash]"</installer-update-error-renaming>
 	<installer-update-continue>Devam...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]Evet[/span] oneye'u tamamen kaldıracak!</installer-system-uninstall-yes>
 	<installer-system-yes>Evet</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Şifre tekrar</installer-install-password-retype>
 	<installer-install-continue>Devam...</installer-install-continue>
 	<installer-install-error-extract>Yükleme dosyaları çıkarılamadı. oneye'u manuel olarak yüklemek için "[package]"  dosyasını "package.tar.gz" yapın ve aynı klasör içerisine çıkarın.</installer-install-error-extract>
-	<installer-install-error-renaming>"./eyeOS/." klasörü yeniden adlandırılamadı. Lütfen siz yeniden adlandırınız,"[hash]"</installer-install-error-renaming>
+	<installer-install-error-renaming>"./system." klasörü yeniden adlandırılamadı. Lütfen siz yeniden adlandırınız,"[hash]"</installer-install-error-renaming>
 	<installer-lib-check-md5>Uyarı: Lütfen "[package]"'ı kontrol edin, bozulmuş görünüyor.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Mevcut dil</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Uyarı: Lütfen, "[file]" dosyasın tüm hakları veriniz (CHMOD 777)</installer-lib-check-permissions>

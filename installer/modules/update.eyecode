@@ -43,7 +43,7 @@ function update_do($update) {
 		foreach ($xmlUpdate['eyePackage'][0]['delete'][0] as $key => $value) {
 			if (check_versions(EYEOS_VERSION,$key) < 2) {
 				foreach ($value as $file) {
-					path_delete('./eyeOS/' . $file);
+					path_delete('./system' . $file);
 				}
 			}
 		}
@@ -55,8 +55,8 @@ function update_do($update) {
 		}
 		
 		// Rename dir
-		if (!path_move('./eyeOS/','./' . REAL_EYE_ROOT . '/')) {
-			output_errors(array(lang_translate('installer-update-error-renaming','Could not rename the directory "./eyeOS/". Please, rename it manually to "[hash]" and overwrite all existing files.',array('[hash]' => REAL_EYE_ROOT))),array('./index.php?update=2',lang_translate('installer-update-continue','Continue...')),0);
+		if (!path_move('./system','./' . REAL_EYE_ROOT . '/')) {
+			output_errors(array(lang_translate('installer-update-error-renaming','Could not rename the directory "./system". Please, rename it manually to "[hash]" and overwrite all existing files.',array('[hash]' => REAL_EYE_ROOT))),array('./index.php?update=2',lang_translate('installer-update-continue','Continue...')),0);
 		}
 	}
 	

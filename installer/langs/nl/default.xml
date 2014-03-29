@@ -13,7 +13,7 @@
 	<installer-system-action-resetsystem>Reset systeem bestanden</installer-system-action-resetsystem>
 	<installer-update-error-extract>De update bestanden kunnen niet worden uitgepakt. Om oneye handmatig te updaten, hernoem "[package]" naar "package.tar.zg" en pakt de inhoud uit in dezelfde directorie.</installer-update-error-extract>
 	<installer-system-uninstall-no>[span]Nee[/span] zal je naar de systeem pagina terug brengen.</installer-system-uninstall-no>
-	<installer-update-error-renaming>Kan de directorie "./eyeOS/". Alstublieft hernoem het handmatig naar "[hash]" en overschrijf alle bestaande bestanden.</installer-update-error-renaming>
+	<installer-update-error-renaming>Kan de directorie "./system". Alstublieft hernoem het handmatig naar "[hash]" en overschrijf alle bestaande bestanden.</installer-update-error-renaming>
 	<installer-update-do>Update oneye!</installer-update-do>
 	<installer-update-error-under15>Deze updates is alleen voor eyeos versie 1.5 of hoger. Je gebruikt eyeos [version1]. Alstublieft update eerst naar eyeos 1.5 voordat je update naar oneye [version2].</installer-update-error-under15>
 	<installer-update-title>Alstublieft ga verder met het updaten van je oneye installatie naar versie [version].</installer-update-title>
@@ -33,7 +33,7 @@
 	<installer-lib-check-md5>Waarschuwing: Controleer "[package]" want het lijkt corrupt te zijn.</installer-lib-check-md5>
 	<installer-install-systemname-error>Je moet een systeemnaam specificeren!</installer-install-systemname-error>
 	<installer-install-password-root>Root wachtwoord</installer-install-password-root>
-	<installer-install-error-renaming>Kan de map "./eyeOS/" niet hernoemen. Hernoem deze map handmatig naar "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>Kan de map "./system" niet hernoemen. Hernoem deze map handmatig naar "[hash]".</installer-install-error-renaming>
 	<installer-install-continue>Doorgaan...</installer-install-continue>
 	<installer-install-password-retype>Herhaal wachtwoord</installer-install-password-retype>
 	<installer-lib-check-gzip>Jouw server lijkt gzip niet te ondersteunen. Om oneye handmatig te installeren moet je "[package]" handmatig naar "installatie.tar.gz" hernoemen en de inhoud in dezelfde map uitpakken.</installer-lib-check-gzip>

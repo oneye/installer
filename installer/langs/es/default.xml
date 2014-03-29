@@ -16,7 +16,7 @@
 	<installer-update-title>Por favor continúa actualizando tu oneye a la versión [version]</installer-update-title>
 	<installer-update-do>¡Actualiza oneye!</installer-update-do>
 	<installer-system-password-error>Contraseña de root incorrecta</installer-system-password-error>
-	<installer-update-error-renaming>No se ha podido renombrar el directorio "./eyeOS/". Por favor, renómbralo manualmente a "[hash]" y sobreescribe todos los archivos.</installer-update-error-renaming>
+	<installer-update-error-renaming>No se ha podido renombrar el directorio "./system". Por favor, renómbralo manualmente a "[hash]" y sobreescribe todos los archivos.</installer-update-error-renaming>
 	<installer-update-continue>Continuar...</installer-update-continue>
 	<installer-system-uninstall-yes>[span]¡Sí[/span] eliminará del todo oneye!</installer-system-uninstall-yes>
 	<installer-system-yes>Sí</installer-system-yes>
@@ -33,7 +33,7 @@
 	<installer-install-password-retype>Reescribir la contraseña</installer-install-password-retype>
 	<installer-install-continue>Continuar...</installer-install-continue>
 	<installer-install-error-extract>Los archivos de instalación no han podido ser extraídos. Para instalar oneye manualmente, renombra "[package]" a "package.tar.gz" y extrae los contenidos en el mismo directorio.</installer-install-error-extract>
-	<installer-install-error-renaming>No se ha podido renombrar el directorio "./eyeOS/". Por favor, renómbralo manualmente a "[hash]".</installer-install-error-renaming>
+	<installer-install-error-renaming>No se ha podido renombrar el directorio "./system". Por favor, renómbralo manualmente a "[hash]".</installer-install-error-renaming>
 	<installer-lib-check-md5>Atención: Por favor revisa "[package]", ya que parece estar corrupto.</installer-lib-check-md5>
 	<installer-lib-output-lang-currentlang>Idioma actual</installer-lib-output-lang-currentlang>
 	<installer-lib-check-permissions>Atención: Por favor, da permisos totales (CHMOD 777) a "[file]".</installer-lib-check-permissions>
