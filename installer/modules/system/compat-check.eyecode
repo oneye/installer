@@ -14,9 +14,19 @@ Copyright © 2005 - 2010 eyeos Team (team@eyeos.org)
              since 2010 Lars Knickrehm (mail@lars-sh.de)
 */
 
-system_compatcheck_start();
+if (isset($_REQUEST['action']) && $_REQUEST['action'] === 'back') {
+	system_compatcheck_back();
+} else {
+	system_compatcheck_start();
+}
 
 function system_compatcheck_start() {
-	output_do(lib_compat(),'system',lang_translate('installer-system-compatcheck','Compatibility Check'));
+	return output_do(lib_compat() . '<div class="button"><form action="./index.php?action=back" method="post"><input class="iButton" type="submit" value="' . lang_translate('installer-system-back', 'Back') . '" /></form></div>', 'system', lang_translate('installer-system-compatcheck', 'Compatibility Check'));
+}
+
+function system_compatcheck_back() {
+	$_SECTION['password'] = '';
+	
+	return system_start();
 }
 ?>
