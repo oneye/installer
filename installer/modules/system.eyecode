@@ -14,25 +14,35 @@ Copyright © 2005 - 2010 eyeos Team (team@eyeos.org)
              since 2010 Lars Knickrehm (mail@lars-sh.de)
 */
 
+if (!function_exists('hash_equals')) {
+	function hash_equals($known_string, $user_string) {
+		return $known_string === $user_string;
+	}
+}
+
+function _system_validatePassword($array, $password) {
+	return isset($array['password_hash']) && password_verify($password, $array['password_hash'][0])
+		|| isset($array['password']) && hash_equals($array['password'][0], md5($password . md5($password)));
+}
+
 if ($_REQUEST['action']) {
 	$_SESSION['action'] = $_REQUEST['action'];
-}
-if ($_REQUEST['password']) {
-	$_SESSION['password'] = md5($_REQUEST['password'] . md5($_REQUEST['password']));
 }
 
 include_once('settings.php');
 $xml = xml_xml2array(file_get_contents(path_account(REAL_ROOTUSER)));
-if (in_array($_SESSION['action'],array('remove-installer','compat-check','reset-system','uninstall')) && $_SESSION['password'] == $xml['eyeUser'][0]['password'][0]) {
+$_SESSION['login'] = isset($_SESSION['login']) && $_SESSION['login'] || isset($_REQUEST['password']) && _system_validatePassword($xml['eyeUser'][0], $_REQUEST['password']);
+
+if ($_SESSION['login'] && in_array($_SESSION['action'], array('remove-installer', 'compat-check', 'reset-system', 'uninstall'))) {
 	include(INSTALL_DIR . 'modules/system/' . $_SESSION['action'] . '.eyecode');
 } else {
-	system_start($_REQUEST['action'],$_REQUEST['password']);
+	system_start($_REQUEST['action']);
 }
 
-function system_start($action,$password) {
+function system_start($action) {
 	include_once('settings.php');
 	$xml = xml_xml2array(file_get_contents(path_account(REAL_ROOTUSER)));
-	if (isset($password) && md5($password . md5($password)) != $xml['eyeUser'][0]['password'][0]) {
+	if (isset($_REQUEST['password'])) {
 		$errorPassword = lang_translate('installer-system-password-error','Incorrect root password!');
 	}
 	$content = '<div class="system" style="top: 142px;">
