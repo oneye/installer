@@ -346,7 +346,7 @@ function output_do($content,$style,$title = '',$langselector = 1,$showwarnings =
 			<div class="window">
 				<a class="logo" href="http://oneye-project.org/' . $_SESSION['lang'] . '" target="_blank"></a>';
 	$utf8 = check_utf8();
-	$sqlite = (function_exists('sqlite_open') === false && class_exists('SQLite3') === true);
+	$sqlite = function_exists('sqlite_open') || class_exists('SQLite3');
 	$imap = function_exists('imap_open');
 	if ($showwarnings && (!$utf8 || !$sqlite || !$imap)) {
 		echo '<div class="warning" style="color: red;">';
