@@ -4,7 +4,7 @@
 			<add>
 				<ROOT_JAILED>0</ROOT_JAILED>
 				<ADMINS_JAILED>1</ADMINS_JAILED>
-				<SECURE_LOGIN>1</SECURE_LOGIN>
+				<SECURE_LOGIN>0</SECURE_LOGIN>
 			</add>
 			<delete>PROTECTED_IP_SESSIONS</delete>
 		</sec>

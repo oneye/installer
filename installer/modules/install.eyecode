@@ -147,9 +147,10 @@ function install_do($install,$allow_register,$hostname,$password) {
 	// root.xml
 	$rootxml = xml_xml2array(file_get_contents('./' . $hash . '/accounts/rt4/root.xml'));
 	if (function_exists('password_hash') && !$secxml['CONFIG'][0]['SECURE_LOGIN'][0]) {
-		$rootxml['eyeUser'][0]['password_hash'][0] = array(password_hash($password, PASSWORD_DEFAULT, array('cost' => PASSWORD_HASH_COST)));
+		unset($rootxml['eyeUser'][0]['password']);
+		$rootxml['eyeUser'][0]['password_hash'][0] = password_hash($password, PASSWORD_DEFAULT, array('cost' => $secxml['CONFIG'][0]['PASSWORD_HASH_COST'][0]));
 	} else {
-		$rootxml['eyeUser'][0]['password'][0] = array(md5($password . md5($password)));
+		$rootxml['eyeUser'][0]['password'][0] = md5($password . md5($password));
 	}
 	$rootxml['eyeUser'][0]['createDate'][0] = time();
 	file_put_contents('./' . $hash . '/accounts/rt4/root.xml',xml_array2xml($rootxml));
